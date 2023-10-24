@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj": {}
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj": {
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj",
+        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj",
         "projectName": "Blog.ORM",
-        "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj",
+        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\obj\\",
+        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-                "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
+        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
         "projectName": "Platform.Infrastructure.Common",
-        "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
+        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\obj\\",
+        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

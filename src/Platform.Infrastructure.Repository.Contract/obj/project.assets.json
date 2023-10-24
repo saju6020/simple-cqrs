@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
       "projectName": "Platform.Infrastructure.Repository.Contract",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Repository.Contract\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

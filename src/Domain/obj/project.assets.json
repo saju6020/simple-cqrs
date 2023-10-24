@@ -3250,11 +3250,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Domain\\Blog.Domain.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Domain\\Blog.Domain.csproj",
       "projectName": "Blog.Domain",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Domain\\Blog.Domain.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Domain\\Blog.Domain.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Domain\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3271,11 +3271,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Repository\\Platform.Infrastructure.Repository.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj"
             }
           }
         }

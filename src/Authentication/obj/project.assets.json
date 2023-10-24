@@ -3749,11 +3749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Authentication\\Authentication.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj",
       "projectName": "Platform.Infrastructure.Authentication",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Authentication\\Authentication.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Authentication\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Authentication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3770,8 +3770,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
             }
           }
         }

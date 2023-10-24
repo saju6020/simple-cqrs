@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Dtos\\UAM.Dtos.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Dtos\\UAM.Dtos.csproj",
       "projectName": "SimpleCQRS.UAM.Dtos",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Dtos\\UAM.Dtos.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Dtos\\UAM.Dtos.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Dtos\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Dtos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

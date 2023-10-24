@@ -3286,11 +3286,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Mapper\\Blog.Mapper.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Mapper\\Blog.Mapper.csproj",
       "projectName": "Blog.Mapper",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Mapper\\Blog.Mapper.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Mapper\\Blog.Mapper.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Mapper\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Mapper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3307,14 +3307,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogOrm\\Blog.ORM.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogOrm\\Blog.ORM.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Domain\\Blog.Domain.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Domain\\Blog.Domain.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Domain\\Blog.Domain.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Domain\\Blog.Domain.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Dtos\\Blog.Dtos.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Dtos\\Blog.Dtos.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Dtos\\Blog.Dtos.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Dtos\\Blog.Dtos.csproj"
             }
           }
         }

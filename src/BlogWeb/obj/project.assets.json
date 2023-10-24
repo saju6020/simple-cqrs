@@ -1203,11 +1203,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogWeb\\BlogWeb.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogWeb\\BlogWeb.csproj",
       "projectName": "BlogWeb",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogWeb\\BlogWeb.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogWeb\\BlogWeb.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\BlogWeb\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\BlogWeb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1224,8 +1224,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"
             }
           }
         }

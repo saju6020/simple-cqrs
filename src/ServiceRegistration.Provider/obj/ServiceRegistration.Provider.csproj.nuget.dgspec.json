@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {}
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
         "projectName": "Platform.Infrastructure.ServiceRegistration.Provider",
-        "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\obj\\",
+        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

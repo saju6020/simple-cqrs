@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\simple-cqrs-rdms\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {}
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\simple-cqrs-rdms\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
         "projectName": "Platform.Infrastructure.EndpointRoleFeatureMap",
-        "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\EndpointRoleFeatureMap\\obj\\",
+        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-                "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
               },
-              "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
-                "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj"
+              "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
+                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
+        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
         "projectName": "Platform.Infrastructure.Common",
-        "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
+        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\obj\\",
+        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
+    "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
         "projectName": "Platform.Infrastructure.ServiceRegistration.Provider",
-        "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\obj\\",
+        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

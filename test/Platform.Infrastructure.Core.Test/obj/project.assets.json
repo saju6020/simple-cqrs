@@ -6356,11 +6356,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\test\\Platform.Infrastructure.Core.Test\\Platform.Infrastructure.Core.Test.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\test\\Platform.Infrastructure.Core.Test\\Platform.Infrastructure.Core.Test.csproj",
       "projectName": "Platform.Infrastructure.Core.Test",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\test\\Platform.Infrastructure.Core.Test\\Platform.Infrastructure.Core.Test.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\test\\Platform.Infrastructure.Core.Test\\Platform.Infrastructure.Core.Test.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\test\\Platform.Infrastructure.Core.Test\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\test\\Platform.Infrastructure.Core.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6377,11 +6377,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
             }
           }
         }

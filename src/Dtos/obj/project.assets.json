@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\Dtos\\Blog.Dtos.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Dtos\\Blog.Dtos.csproj",
       "projectName": "Blog.Dtos",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Dtos\\Blog.Dtos.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Dtos\\Blog.Dtos.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Dtos\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Dtos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",

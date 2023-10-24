@@ -8680,11 +8680,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
       "projectName": "UAM.Domain.Test",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\test\\UAM.Domain.Test\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8701,11 +8701,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Common\\UAM.Common.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Common\\UAM.Common.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Domain\\UAM.Domain.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Domain\\UAM.Domain.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj"
             }
           }
         }

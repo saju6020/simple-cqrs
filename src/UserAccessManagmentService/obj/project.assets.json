@@ -3874,11 +3874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\UserAccessManagmentService\\UAM.WebService.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UserAccessManagmentService\\UAM.WebService.csproj",
       "projectName": "UAM.WebService",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UserAccessManagmentService\\UAM.WebService.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UserAccessManagmentService\\UAM.WebService.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UserAccessManagmentService\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UserAccessManagmentService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3895,26 +3895,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Authentication\\Authentication.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Authentication\\Authentication.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Common\\UAM.Common.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Common\\UAM.Common.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Database\\UAM.Database.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Database\\UAM.Database.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Dtos\\UAM.Dtos.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Dtos\\UAM.Dtos.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Dtos\\UAM.Dtos.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Dtos\\UAM.Dtos.csproj"
             },
-            "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Mapper\\UAM.Mapper.csproj": {
-              "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Mapper\\UAM.Mapper.csproj"
+            "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Mapper\\UAM.Mapper.csproj": {
+              "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Mapper\\UAM.Mapper.csproj"
             }
           }
         }

@@ -31,3 +31,14 @@ D:\Practice\simple-cqrs-rdms\src\UAM.Common\obj\Debug\net6.0\SimpleCQRS.UAM.Comm
 D:\Practice\simple-cqrs-rdms\src\UAM.Common\obj\Debug\net6.0\refint\SimpleCQRS.UAM.Common.dll
 D:\Practice\simple-cqrs-rdms\src\UAM.Common\obj\Debug\net6.0\SimpleCQRS.UAM.Common.pdb
 D:\Practice\simple-cqrs-rdms\src\UAM.Common\obj\Debug\net6.0\ref\SimpleCQRS.UAM.Common.dll
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\bin\Debug\net6.0\SimpleCQRS.UAM.Common.deps.json
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\bin\Debug\net6.0\SimpleCQRS.UAM.Common.dll
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\bin\Debug\net6.0\SimpleCQRS.UAM.Common.pdb
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\UAM.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\UAM.Common.AssemblyInfoInputs.cache
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\UAM.Common.AssemblyInfo.cs
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\UAM.Common.csproj.CoreCompileInputs.cache
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\SimpleCQRS.UAM.Common.dll
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\refint\SimpleCQRS.UAM.Common.dll
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\SimpleCQRS.UAM.Common.pdb
+D:\Practice\git-repo\simple-cqrs\src\UAM.Common\obj\Debug\net6.0\ref\SimpleCQRS.UAM.Common.dll

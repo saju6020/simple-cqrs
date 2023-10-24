@@ -3106,11 +3106,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Database\\UAM.Database.csproj",
+      "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj",
       "projectName": "SimpleCQRS.UAM.Database",
-      "projectPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Database\\UAM.Database.csproj",
+      "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\simple-cqrs-rdms\\src\\UAM.Database\\obj\\",
+      "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
