@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "resturants",
+    "Tenants": [
+      {
+        "Id": "67a5163c-565d-4ca0-b117-87c701f654f9",
+        "Verticals": [
+          {
+            "Id": "delivery",
+            "Features": [
+              {
+                "Id": "ResturantsView",
+                "Roles": [ "appuser", "admin" ],
+                "EndPoints": [ "Query/GetByQuery" ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

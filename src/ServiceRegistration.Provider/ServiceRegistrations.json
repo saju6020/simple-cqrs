@@ -1,0 +1,38 @@
+[
+  {
+    "Id": "resturants",
+    "Name": "Resturants",
+    "Tenants": [
+      {
+        "Id": "67a5163c-565d-4ca0-b117-87c701f654f9",
+        "Name": "ShohozDhaka",
+        "Verticals": [
+          {
+            "Id": "delivery",
+            "Name": "Delivery",
+
+            "ReadDatabaseName": "ResturantsReadDatabase",
+            "StateDatabaseName": "ResturantsStateDatabase",
+            "EventDatabaseName": "ResturantsEventDatabase",
+            "StorageBucketName": "storage-default",
+            "CacheDatabaseName": "Resturants",
+
+            "ReadServerConnectionString":  "mongodb://localhost:27017/",
+            "StateServerConnectionString":  "mongodb://localhost:27017/",
+            "EventServerConnectionString": "mongodb://localhost:27017/",
+            "StorageServerConnectionString": "DefaultEndpointsProtocol=https;AccountName=platformdevdata;AccountKey=v0lriX6t8+eK68oqzeUkUTMwOv2Q9eu9Tn58iGA+c9mgBdlEntXwvK+kxI0pjinJ4HkHzyO547Rj2pQb7D2rcQ==;EndpointSuffix=core.windows.net",
+            "CacheServerConnectionString": "localhost:6379,abortConnect=false,connectTimeout=50000,syncTimeout=5000",
+
+            "Apps": [
+              {
+                "Id": "FoodUserApp",
+                "Secret": "45121d40-7ddb-46f8-a69e-8be887f6c026",
+                "Name": "45121d40-7ddb-46f8-a69e-8be887f6c026"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

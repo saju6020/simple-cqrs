@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "I0xsoQN8wjVZ9qViAPufpT63z9HRliqo040eP4lvk8A=",
+  "Source": "UAM.WebService",
+  "BasePath": "_content/UAM.WebService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

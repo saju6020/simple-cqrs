@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Platform.Infrastructure.Repository.Contract/1.0.0": {
+        "runtime": {
+          "Platform.Infrastructure.Repository.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Platform.Infrastructure.Repository.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

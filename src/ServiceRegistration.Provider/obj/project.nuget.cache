@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "emETXYcRf/9euSV5nfS4H7f7TWW9oHlDRvHS5Ca0cqSy1PStQx/EER1UTw24Tosr8EAn2x+5ogBi/lll8au8NA==",
+  "success": true,
+  "projectFilePath": "D:\\Practice\\simple-cqrs-rdms\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: simplecqrsrdms 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simplecqrsrdms
+  template:
+    metadata:
+      labels:
+        app: simplecqrsrdms 
+    spec:
+      containers:
+        - name: simplecqrsrdms 
+          image: sahfiqregistry.azurecr.io/simplecqrsrdms
+          ports:
+          - containerPort: 80
