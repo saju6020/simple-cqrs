@@ -10,7 +10,7 @@ namespace Blog.ORM.Context
         {
             builder.HasData(new Category
             {
-                CategoryId = Guid.NewGuid(),
+                Id = Guid.NewGuid(),
                 Title = "Default",
             });
         }

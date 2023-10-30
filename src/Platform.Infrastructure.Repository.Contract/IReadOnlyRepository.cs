@@ -60,10 +60,10 @@ namespace Platform.Infrastructure.Repository.Contract
             string includeProperties = null)
             where TEntity : class;
 
-        TEntity GetById<TEntity>(object id)
+        TEntity GetById<TEntity>(Guid id)
             where TEntity : class;
 
-        Task<TEntity> GetByIdAsync<TEntity>(object id)
+        Task<TEntity> GetByIdAsync<TEntity>(Guid id)
             where TEntity : class;
 
         int GetCount<TEntity>(Expression<Func<TEntity, bool>> filter = null)

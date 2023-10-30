@@ -32,4 +32,8 @@
     <ProjectReference Include="..\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

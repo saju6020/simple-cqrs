@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Platform.Infrastructure.Common;
+using System.ComponentModel.DataAnnotations;
 
 namespace Blog.ORM.Models
 {
     public class Comment : BaseEntity
     {
-        [Key]
-        public Guid CommentId { get; set; }
 
         public string? CommentContents { get; set; }
 

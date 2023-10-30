@@ -21,7 +21,7 @@ namespace Blog.ORM.Context
 
             builder.Property(b => b.IsPublished).HasDefaultValue(false);
 
-            builder.Property(b => b.BlogId).IsUnicode();
+            builder.Property(b => b.Id).IsUnicode();
         }
     }
 }

@@ -48,7 +48,9 @@ namespace SimpleCQRS.UAM.Domain.CommandHandlers
                 {                    
                     commandResponse.ValidationResult.AddError(error.Description, error.Code);
                 }
-            }                     
+            }
+
+            commandResponse.Result = identityResult.Succeeded;
 
             return commandResponse;
         }

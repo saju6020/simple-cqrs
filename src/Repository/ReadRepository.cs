@@ -135,13 +135,13 @@ namespace Platform.Infrastructure.Repository
             return await GetQueryable<TEntity>(filter, orderBy, includeProperties).FirstOrDefaultAsync();
         }
 
-        public  TEntity GetById<TEntity>(object id)
+        public  TEntity GetById<TEntity>(Guid id)
             where TEntity : class
         {
             return context.Set<TEntity>().Find(id);
         }
 
-        public async Task<TEntity> GetByIdAsync<TEntity>(object id)
+        public async Task<TEntity> GetByIdAsync<TEntity>(Guid id)
             where TEntity : class
         {
             return await context.Set<TEntity>().FindAsync(id);

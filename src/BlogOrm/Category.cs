@@ -1,11 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Platform.Infrastructure.Common;
+using System.ComponentModel.DataAnnotations;
 
 namespace Blog.ORM.Models
 {
     public class Category : BaseEntity
     {
-        [Key]
-        public Guid CategoryId { get; set; }
 
         public string? Title { get; set;}
 

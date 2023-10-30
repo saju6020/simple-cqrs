@@ -26,7 +26,7 @@ namespace SimpleCQRS.Blog.Domain.CommandHandlers
             await this._repository.CreateAsync<BlogDetails>(blog);
             await this._repository.SaveAsync();
 
-            return blog.BlogId;
+            return blog.Id;
         }
 
     }

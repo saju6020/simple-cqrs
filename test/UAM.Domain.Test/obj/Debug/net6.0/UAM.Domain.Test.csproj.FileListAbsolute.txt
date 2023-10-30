@@ -517,3 +517,9 @@ D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\obj\Debug\net6.0\refint\UA
 D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\obj\Debug\net6.0\UAM.Domain.Test.pdb
 D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\obj\Debug\net6.0\UAM.Domain.Test.genruntimeconfig.cache
 D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\obj\Debug\net6.0\ref\UAM.Domain.Test.dll
+D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.DynamicLinq.dll
+D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\bin\Debug\net6.0\Platform.Infrastructure.Repository.Contract.dll
+D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\bin\Debug\net6.0\Platform.Infrastructure.Repository.dll
+D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\bin\Debug\net6.0\Platform.Infrastructure.Repository.pdb
+D:\Practice\git-repo\simple-cqrs\test\UAM.Domain.Test\bin\Debug\net6.0\Platform.Infrastructure.Repository.Contract.pdb

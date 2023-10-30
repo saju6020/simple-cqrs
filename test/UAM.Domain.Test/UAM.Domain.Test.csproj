@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -23,6 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\..\src\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\..\src\Repository\Platform.Infrastructure.Repository.csproj" />
     <ProjectReference Include="..\..\src\UAM.Common\UAM.Common.csproj" />
     <ProjectReference Include="..\..\src\UAM.Domain\UAM.Domain.csproj" />
   </ItemGroup>
