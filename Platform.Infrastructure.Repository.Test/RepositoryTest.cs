@@ -3,6 +3,7 @@ using Platform.Infrastructure.Repository.Test.Fake;
 
 namespace Platform.Infrastructure.Repository.Test
 {
+    [TestFixture]
     public class RepositoryTest
     {
         private  MockRepository<TestUser> mockRepository;
@@ -21,6 +22,13 @@ namespace Platform.Infrastructure.Repository.Test
         {
             var user = mockRepository.MockRepo.Object.GetById<TestUser>(new Guid("58697233-07f3-474b-8152-07dbfaf27c60"));
             Assert.NotNull(user);
+        }
+
+        [Test]
+        public void Get_ItemById_Failed()
+        {
+            var user = mockRepository.MockRepo.Object.GetById<TestUser>(new Guid("58697233-07f3-474b-8152-07dbfaf27c61"));
+            Assert.IsNull(user);
         }
 
         private void SetupGetFunctions()

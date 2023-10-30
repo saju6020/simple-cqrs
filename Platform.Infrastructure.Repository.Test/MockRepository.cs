@@ -23,13 +23,13 @@ namespace Platform.Infrastructure.Repository.Test
             this.MockRepo.Setup(r => r.GetById<T>(It.IsAny<Guid>()))
                 .Returns<Guid>(id =>
                 {
-                    return this.Context.Where(f => f.Id == id).Single();
+                    return this.Context.Where(f => f.Id == id).SingleOrDefault();
                 });
 
             this.MockRepo.Setup(r => r.GetByIdAsync<T>(It.IsAny<Guid>()))
                 .ReturnsAsync((Guid id) =>
                 {
-                    return this.Context.Where(f => f.Id == id).Single();
+                    return this.Context.Where(f => f.Id == id).SingleOrDefault();
                 });
 
         }
