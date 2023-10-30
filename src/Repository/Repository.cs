@@ -58,7 +58,7 @@ namespace Platform.Infrastructure.Repository
             Delete<TEntity>(entity);
         }
 
-        public async Task DeleteAsync<TEntity>(object id)
+        public async Task DeleteAsync<TEntity>(Guid id)
            where TEntity : class
         {
            await Task.Run(() =>

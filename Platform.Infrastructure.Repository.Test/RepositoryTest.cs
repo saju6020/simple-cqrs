@@ -31,6 +31,40 @@ namespace Platform.Infrastructure.Repository.Test
             Assert.IsNull(user);
         }
 
+        [Test]
+        public async Task Create_Successfully()
+        {
+
+            var id = Guid.NewGuid();
+            TestUser newTestUser = new TestUser()
+            {
+                Id = id,
+                Name = "Test",
+                Email = "Test",
+                Designation = "Test",
+
+            };
+
+            var expectedCount = 6;
+
+            await mockRepository.MockRepo.Object.CreateAsync<TestUser>(newTestUser);
+
+            Assert.IsTrue(expectedCount == this.mockRepository.Context.Count);
+        }
+
+        [Test]
+        public async Task Delete_Item_Successfully()
+        {            
+            await mockRepository.MockRepo.Object.DeleteAsync<TestUser>(new Guid("1f9ebad8-d2d4-4ff9-8098-aac879623a54"));
+
+            int expectedCount = 4;
+
+            var user = mockRepository.MockRepo.Object.GetById<TestUser>(new Guid("1f9ebad8-d2d4-4ff9-8098-aac879623a54"));
+            Assert.IsNull(user);
+
+            Assert.IsTrue(expectedCount == this.mockRepository.Context.Count);
+        }
+
         private void SetupGetFunctions()
         {
 

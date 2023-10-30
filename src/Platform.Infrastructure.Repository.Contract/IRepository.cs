@@ -20,7 +20,7 @@ namespace Platform.Infrastructure.Repository.Contract
         void Update<TEntity>(TEntity entity)
            where TEntity : class;
 
-        Task DeleteAsync<TEntity>(object id)
+        Task DeleteAsync<TEntity>(Guid id)
             where TEntity : class;
 
         void Delete<TEntity>(TEntity entity)

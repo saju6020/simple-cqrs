@@ -32,6 +32,19 @@ namespace Platform.Infrastructure.Repository.Test
                     return this.Context.Where(f => f.Id == id).SingleOrDefault();
                 });
 
+            this.MockRepo.Setup(r=> r.CreateAsync<T>(It.IsAny<T>()))
+                .Callback<T>(item =>
+                {                   
+                    Context.Add(item);
+                });
+
+            this.MockRepo.Setup(r => r.DeleteAsync<T>(It.IsAny<Guid>()))
+                .Callback<Guid>(id =>
+                {
+                    var item = Context.FirstOrDefault(f => f.Id == id);
+                    Context.Remove(item);
+                });
+
         }
     }
 
