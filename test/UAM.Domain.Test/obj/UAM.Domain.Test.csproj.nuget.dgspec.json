@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj": {}
+    "C:\\Repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
         "projectName": "Platform.Infrastructure.Common",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -55,36 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj",
         "projectName": "Platform.Infrastructure.Core",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
               }
             }
           }
@@ -96,8 +96,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -124,33 +124,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
         "projectName": "Platform.Infrastructure.Repository.Contract",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -161,8 +161,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -179,36 +179,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj",
         "projectName": "Platform.Infrastructure.Repository",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Repository.Contract\\Platform.Infrastructure.Repository.Contract.csproj"
               }
             }
           }
@@ -220,8 +220,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -248,33 +248,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj",
         "projectName": "SimpleCQRS.UAM.Common",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -285,8 +285,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -303,33 +303,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj",
         "projectName": "SimpleCQRS.UAM.Database",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -340,8 +340,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -382,45 +382,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj",
         "projectName": "SimpleCQRS.UAM.Domain",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj"
               }
             }
           }
@@ -432,12 +432,12 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[12.0.1, )"
+              "version": "[13.0.1, )"
             },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
@@ -460,36 +460,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
         "projectName": "Platform.Infrastructure.Validation.FluentValidation",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Validation.FluentValidation\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
               }
             }
           }
@@ -501,8 +501,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
@@ -525,48 +525,48 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj": {
+    "C:\\Repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
         "projectName": "UAM.Domain.Test",
-        "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\git-repo\\simple-cqrs\\test\\UAM.Domain.Test\\obj\\",
+        "projectPath": "C:\\Repo\\simple-cqrs\\test\\UAM.Domain.Test\\UAM.Domain.Test.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\test\\UAM.Domain.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
               },
-              "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj": {
-                "projectPath": "D:\\Practice\\git-repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj"
               }
             }
           }
@@ -578,8 +578,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -622,7 +622,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

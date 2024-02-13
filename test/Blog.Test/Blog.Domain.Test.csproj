@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -18,8 +18,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
-    <ProjectReference Include="..\src\Repository\Platform.Infrastructure.Repository.csproj" />
+    <Folder Include="Fake\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\..\src\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\..\src\UAM.Domain\UAM.Domain.csproj" />
   </ItemGroup>
 
 </Project>

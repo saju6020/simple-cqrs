@@ -42,3 +42,15 @@ D:\Practice\git-repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.dll
 D:\Practice\git-repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\refint\Blog.Dtos.dll
 D:\Practice\git-repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.pdb
 D:\Practice\git-repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\ref\Blog.Dtos.dll
+C:\Repo\simple-cqrs\src\Dtos\bin\Debug\net6.0\Blog.Dtos.deps.json
+C:\Repo\simple-cqrs\src\Dtos\bin\Debug\net6.0\Blog.Dtos.dll
+C:\Repo\simple-cqrs\src\Dtos\bin\Debug\net6.0\Blog.Dtos.pdb
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.AssemblyInfoInputs.cache
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.AssemblyInfo.cs
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.csproj.CoreCompileInputs.cache
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.sourcelink.json
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.dll
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\refint\Blog.Dtos.dll
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\Blog.Dtos.pdb
+C:\Repo\simple-cqrs\src\Dtos\obj\Debug\net6.0\ref\Blog.Dtos.dll

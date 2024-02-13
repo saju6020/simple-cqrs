@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Platform.Infrastructure.Validation.FluentValidation
-build_property.ProjectDir = D:\Practice\git-repo\simple-cqrs\src\Validation.FluentValidation\
+build_property.ProjectDir = C:\Repo\simple-cqrs\src\Validation.FluentValidation\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

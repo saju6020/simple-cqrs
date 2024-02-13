@@ -42,3 +42,15 @@ D:\Practice\git-repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract
 D:\Practice\git-repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\refint\Platform.Infrastructure.Repository.Contract.dll
 D:\Practice\git-repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.pdb
 D:\Practice\git-repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\ref\Platform.Infrastructure.Repository.Contract.dll
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\bin\Debug\net6.0\Platform.Infrastructure.Repository.Contract.deps.json
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\bin\Debug\net6.0\Platform.Infrastructure.Repository.Contract.dll
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\bin\Debug\net6.0\Platform.Infrastructure.Repository.Contract.pdb
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.AssemblyInfoInputs.cache
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.AssemblyInfo.cs
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.csproj.CoreCompileInputs.cache
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.sourcelink.json
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.dll
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\refint\Platform.Infrastructure.Repository.Contract.dll
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\Platform.Infrastructure.Repository.Contract.pdb
+C:\Repo\simple-cqrs\src\Platform.Infrastructure.Repository.Contract\obj\Debug\net6.0\ref\Platform.Infrastructure.Repository.Contract.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shohoz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a6964975dbf47de5832a1295ed817dd6ded5599")]
 [assembly: System.Reflection.AssemblyProductAttribute("Platform.Infrastructure.Authentication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Platform.Infrastructure.Authentication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
