@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>Shohoz.Platform.Infrastructure.CustomException</AssemblyName>
+		<RootNamespace>Shohoz.Platform.Infrastructure.CustomException</RootNamespace>
+		<SignAssembly>False</SignAssembly>
+		<AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="BaseException.cs">
+			<ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+			<ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+		</Compile>
+	</ItemGroup>
+
+</Project>

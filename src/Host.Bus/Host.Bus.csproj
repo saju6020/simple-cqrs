@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Shohoz.Platform.Infrastructure.Host.Bus</AssemblyName>
+    <RootNamespace>Shohoz.Platform.Infrastructure.Host.Bus</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Settings.StyleCop" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="Settings.StyleCop" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Host.WebApi\Host.WebApi.csproj" />
+  </ItemGroup>
+</Project>
