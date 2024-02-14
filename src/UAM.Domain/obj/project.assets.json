@@ -1141,7 +1141,7 @@
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}
         }
       },
-      "Platform.Infrastructure.Validation.FluentValidation/1.0.0": {
+      "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1149,10 +1149,10 @@
           "Platform.Infrastructure.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidation.dll": {}
+          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidationProvider.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidation.dll": {}
+          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidationProvider.dll": {}
         }
       },
       "SimpleCQRS.UAM.Common/1.0.0": {
@@ -3097,10 +3097,10 @@
       "path": "../Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj",
       "msbuildProject": "../Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj"
     },
-    "Platform.Infrastructure.Validation.FluentValidation/1.0.0": {
+    "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
       "type": "project",
-      "path": "../Validation.FluentValidation/Validation.FluentValidationProvider.csproj",
-      "msbuildProject": "../Validation.FluentValidation/Validation.FluentValidationProvider.csproj"
+      "path": "../Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
+      "msbuildProject": "../Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
     },
     "SimpleCQRS.UAM.Common/1.0.0": {
       "type": "project",
@@ -3118,7 +3118,7 @@
       "AutoMapper >= 13.0.1",
       "Microsoft.Extensions.Identity.Core >= 6.0.22",
       "Platform.Infrastructure.Core >= 1.0.0",
-      "Platform.Infrastructure.Validation.FluentValidation >= 1.0.0",
+      "Platform.Infrastructure.Validation.FluentValidationProvider >= 1.0.0",
       "SimpleCQRS.UAM.Common >= 1.0.0",
       "SimpleCQRS.UAM.Database >= 1.0.0"
     ]
@@ -3159,8 +3159,8 @@
             "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
             }
           }
         }

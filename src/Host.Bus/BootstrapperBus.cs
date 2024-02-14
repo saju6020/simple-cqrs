@@ -1,13 +1,11 @@
-﻿// <copyright file="BootstrapperBus.cs" company="Shohoz">
-// Copyright © 2015-2020 Shohoz. All Rights Reserved.
-// </copyright>
-
-namespace Shohoz.Platform.Infrastructure.Host.Bus
+﻿namespace Platform.Infrastructure.Host.Bus
 {
+    using global::Platform.Infrastructure.Host.Contracts;
+    using global::Platform.Infrastructure.Host.WebApi;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.Extensions.DependencyInjection;
-    using Shohoz.Platform.Infrastructure.Host.Contracts;
-    using Shohoz.Platform.Infrastructure.Host.WebApi;
+    using Platform.Infrastructure.Host.Contracts;
+    using Platform.Infrastructure.Host.WebApi;
 
     /// <summary>Class to bootstrap a web api with service bus functionality enabled</summary>
     /// <seealso cref="Shohoz.Platform.Infrastructure.Host.WebApi.BootstrapperWebApi" />

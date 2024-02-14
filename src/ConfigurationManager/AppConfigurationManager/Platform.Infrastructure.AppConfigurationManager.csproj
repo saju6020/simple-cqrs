@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<LangVersion>8.0</LangVersion>
+		<SignAssembly>False</SignAssembly>
+		<AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="IAppConfigurationManager{T}.cs\**" />
+		<EmbeddedResource Remove="IAppConfigurationManager{T}.cs\**" />
+		<None Remove="IAppConfigurationManager{T}.cs\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Azure.AppConfiguration.AspNetCore" Version="7.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\CustomException\Platform.Infrastructure.CustomException.csproj" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<Compile Update="Builders\AzureBasedAppConfigurationManager{T}.cs">
+			<ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+			<ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+		</Compile>
+	</ItemGroup>
+
+</Project>

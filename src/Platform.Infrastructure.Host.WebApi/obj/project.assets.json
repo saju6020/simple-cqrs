@@ -383,7 +383,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
           "Platform.Infrastructure.Common": "1.0.0",
-          "Platform.Infrastructure.ServiceRegistration.Provider": "1.0.0"
+          "ServiceRegistration.Provider": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Platform.Infrastructure.EndpointRoleFeatureMap.dll": {}
@@ -395,7 +395,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Platform.Infrastructure.ServiceRegistration.Provider/1.0.0": {
+      "ServiceRegistration.Provider/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -403,10 +403,10 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/Platform.Infrastructure.ServiceRegistration.Provider.dll": {}
+          "bin/placeholder/ServiceRegistration.Provider.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Platform.Infrastructure.ServiceRegistration.Provider.dll": {}
+          "bin/placeholder/ServiceRegistration.Provider.dll": {}
         }
       }
     }
@@ -1026,10 +1026,10 @@
     },
     "Platform.Infrastructure.EndpointRoleFeatureMap/1.0.0": {
       "type": "project",
-      "path": "../EndpointRoleFeatureMap/EndpointRoleFeatureMap.csproj",
-      "msbuildProject": "../EndpointRoleFeatureMap/EndpointRoleFeatureMap.csproj"
+      "path": "../EndpointRoleFeatureMap/Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
+      "msbuildProject": "../EndpointRoleFeatureMap/Platform.Infrastructure.EndpointRoleFeatureMap.csproj"
     },
-    "Platform.Infrastructure.ServiceRegistration.Provider/1.0.0": {
+    "ServiceRegistration.Provider/1.0.0": {
       "type": "project",
       "path": "../ServiceRegistration.Provider/ServiceRegistration.Provider.csproj",
       "msbuildProject": "../ServiceRegistration.Provider/ServiceRegistration.Provider.csproj"
@@ -1073,8 +1073,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj"
             },
             "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"

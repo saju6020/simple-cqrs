@@ -197,9 +197,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj",
       "projectName": "Platform.Infrastructure.ServiceRegistration.Provider",
-      "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+      "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj",
       "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
       "outputPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\obj\\",
       "projectStyle": "PackageReference",

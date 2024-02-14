@@ -4,12 +4,12 @@
     "C:\\Repo\\simple-cqrs\\src\\UserAccessManagmentService\\UAM.WebService.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj",
         "projectName": "Platform.Infrastructure.Authentication",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\obj\\",
         "projectStyle": "PackageReference",
@@ -73,12 +73,166 @@
         }
       }
     },
-    "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj",
+        "projectName": "Platform.Infrastructure.AppConfigurationManager",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.AppConfiguration.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj",
+        "projectName": "Platform.Infrastructure.CustomException",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\CustomException\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
         "projectName": "Platform.Infrastructure.EndpointRoleFeatureMap",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\obj\\",
         "projectStyle": "PackageReference",
@@ -100,8 +254,8 @@
               "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
               },
-              "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj"
               }
             }
           }
@@ -136,6 +290,232 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj",
+        "projectName": "Platform.Infrastructure.Host.WebApi",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj"
+              },
+              "C:\\Repo\\simple-cqrs\\src\\Host\\Platform.Infrastructure.Host.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Host\\Platform.Infrastructure.Host.csproj"
+              },
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+              },
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\simple-cqrs\\src\\Host\\Platform.Infrastructure.Host.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Host\\Platform.Infrastructure.Host.csproj",
+        "projectName": "Platform.Infrastructure.Host",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Host\\Platform.Infrastructure.Host.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Host\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj"
+              },
+              "C:\\Repo\\simple-cqrs\\src\\SerilogConfiguration\\Platform.Infrastructure.SerilogConfiguration.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\SerilogConfiguration\\Platform.Infrastructure.SerilogConfiguration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\simple-cqrs\\src\\LogConfigurationAbstraction\\Platform.Infrastructure.LogConfigurationAbstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\LogConfigurationAbstraction\\Platform.Infrastructure.LogConfigurationAbstraction.csproj",
+        "projectName": "Platform.Infrastructure.LogConfigurationAbstraction",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\LogConfigurationAbstraction\\Platform.Infrastructure.LogConfigurationAbstraction.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\LogConfigurationAbstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -268,14 +648,14 @@
         }
       }
     },
-    "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\SerilogConfiguration\\Platform.Infrastructure.SerilogConfiguration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj",
-        "projectName": "Platform.Infrastructure.Host.WebApi",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\SerilogConfiguration\\Platform.Infrastructure.SerilogConfiguration.csproj",
+        "projectName": "Platform.Infrastructure.SerilogConfiguration",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\SerilogConfiguration\\Platform.Infrastructure.SerilogConfiguration.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\obj\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\SerilogConfiguration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,11 +672,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj"
-              },
-              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\LogConfigurationAbstraction\\Platform.Infrastructure.LogConfigurationAbstraction.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\LogConfigurationAbstraction\\Platform.Infrastructure.LogConfigurationAbstraction.csproj"
               }
             }
           }
@@ -311,25 +688,57 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[8.0.1, )"
             },
-            "Microsoft.AspNetCore.Http.Abstractions": {
+            "Serilog.Enrichers.CorrelationId": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[3.0.1, )"
             },
-            "Microsoft.Extensions.Configuration.Abstractions": {
+            "Serilog.Extensions.Logging": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
-            "Microsoft.Extensions.Logging": {
+            "Serilog.Settings.Configuration": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.0, )"
             },
-            "Newtonsoft.Json": {
+            "Serilog.Sinks.ApplicationInsights": {
               "target": "Package",
-              "version": "[13.0.3, )"
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.AwsCloudWatch": {
+              "target": "Package",
+              "version": "[4.0.182, )"
+            },
+            "Serilog.Sinks.AzureBlobStorage": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Sinks.EventLog": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.RollingFileAlternate": {
+              "target": "Package",
+              "version": "[2.0.9, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -352,12 +761,12 @@
         }
       }
     },
-    "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj",
         "projectName": "Platform.Infrastructure.ServiceRegistration.Provider",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\obj\\",
         "projectStyle": "PackageReference",
@@ -584,8 +993,8 @@
               "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj"
               },
-              "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
               }
             }
           }
@@ -779,14 +1188,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj"
+              },
+              "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"
               },
               "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
-              },
-              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"
               },
               "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
@@ -845,12 +1254,12 @@
         }
       }
     },
-    "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
-        "projectName": "Platform.Infrastructure.Validation.FluentValidation",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
+        "projectName": "Platform.Infrastructure.Validation.FluentValidationProvider",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\obj\\",
         "projectStyle": "PackageReference",

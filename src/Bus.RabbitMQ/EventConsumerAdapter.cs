@@ -1,4 +1,4 @@
-﻿namespace Bus.RabbitMQ
+﻿namespace Platform.Infrastructure.Bus.RabbitMQ
 {
     using System.Diagnostics.CodeAnalysis;
     using System.Threading.Tasks;

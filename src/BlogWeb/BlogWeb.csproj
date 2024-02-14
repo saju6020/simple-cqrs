@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Platform.Infrastructure.Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
+    <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

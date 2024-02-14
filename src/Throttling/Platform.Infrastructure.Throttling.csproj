@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Shohoz.Platform.Infrastructure.Throttling</AssemblyName>
+    <RootNamespace>Shohoz.Platform.Infrastructure.Throttling</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="4.0.0" />
+    <PackageReference Include="AspNetCoreRateLimit.Redis" Version="1.0.0" />
+    <PackageReference Include="Ben.BlockingDetector" Version="0.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
+  </ItemGroup>
+
+</Project>

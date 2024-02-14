@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
-        "projectName": "Platform.Infrastructure.ServiceRegistration.Provider",
+        "projectName": "ServiceRegistration.Provider",
         "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\obj\\",

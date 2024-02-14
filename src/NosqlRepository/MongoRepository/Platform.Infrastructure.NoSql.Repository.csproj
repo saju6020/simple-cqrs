@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>Shohoz.Platform.Infrastructure.MongoRepository</AssemblyName>
+		<RootNamespace>Shohoz.Platform.Infrastructure.MongoRepository</RootNamespace>
+		<SignAssembly>False</SignAssembly>
+		<AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="3.1.7" />
+		<PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\ConfigurationManager\AppConfigurationManager\Platform.Infrastructure.AppConfigurationManager.csproj" />
+	  <ProjectReference Include="..\..\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
+	  <ProjectReference Include="..\Repository.Contracts\Platform.Infrastructure.NoSql.Repository.Contracts.csproj" />
+	</ItemGroup>
+
+</Project>

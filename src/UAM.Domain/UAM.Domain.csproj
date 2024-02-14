@@ -12,7 +12,7 @@
     <ProjectReference Include="..\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\UAM.Common\UAM.Common.csproj" />
     <ProjectReference Include="..\UAM.Database\UAM.Database.csproj" />
-    <ProjectReference Include="..\Validation.FluentValidation\Validation.FluentValidationProvider.csproj" />
+    <ProjectReference Include="..\Validation.FluentValidation\Platform.Infrastructure.Validation.FluentValidationProvider.csproj" />
   </ItemGroup>
 
   <ItemGroup>

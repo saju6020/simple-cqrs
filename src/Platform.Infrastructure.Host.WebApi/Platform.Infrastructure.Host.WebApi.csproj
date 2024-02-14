@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EndpointRoleFeatureMap\EndpointRoleFeatureMap.csproj" />
+    <ProjectReference Include="..\EndpointRoleFeatureMap\Platform.Infrastructure.EndpointRoleFeatureMap.csproj" />
     <ProjectReference Include="..\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
   </ItemGroup>
 

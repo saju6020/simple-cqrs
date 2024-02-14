@@ -375,9 +375,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj",
+      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj",
       "projectName": "Platform.Infrastructure.Authentication",
-      "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Authentication.csproj",
+      "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj",
       "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
       "outputPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\obj\\",
       "projectStyle": "PackageReference",

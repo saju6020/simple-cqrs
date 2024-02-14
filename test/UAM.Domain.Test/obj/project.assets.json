@@ -2836,7 +2836,7 @@
           "bin/placeholder/Platform.Infrastructure.Repository.Contract.dll": {}
         }
       },
-      "Platform.Infrastructure.Validation.FluentValidation/1.0.0": {
+      "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -2844,10 +2844,10 @@
           "Platform.Infrastructure.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidation.dll": {}
+          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidationProvider.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidation.dll": {}
+          "bin/placeholder/Platform.Infrastructure.Validation.FluentValidationProvider.dll": {}
         }
       },
       "SimpleCQRS.UAM.Common/1.0.0": {
@@ -2883,7 +2883,7 @@
           "AutoMapper": "13.0.1",
           "Microsoft.Extensions.Identity.Core": "6.0.22",
           "Platform.Infrastructure.Core": "1.0.0",
-          "Platform.Infrastructure.Validation.FluentValidation": "1.0.0",
+          "Platform.Infrastructure.Validation.FluentValidationProvider": "1.0.0",
           "SimpleCQRS.UAM.Common": "1.0.0",
           "SimpleCQRS.UAM.Database": "1.0.0"
         },
@@ -8776,10 +8776,10 @@
       "path": "../../src/Platform.Infrastructure.Repository.Contract/Platform.Infrastructure.Repository.Contract.csproj",
       "msbuildProject": "../../src/Platform.Infrastructure.Repository.Contract/Platform.Infrastructure.Repository.Contract.csproj"
     },
-    "Platform.Infrastructure.Validation.FluentValidation/1.0.0": {
+    "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
       "type": "project",
-      "path": "../../src/Validation.FluentValidation/Validation.FluentValidationProvider.csproj",
-      "msbuildProject": "../../src/Validation.FluentValidation/Validation.FluentValidationProvider.csproj"
+      "path": "../../src/Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
+      "msbuildProject": "../../src/Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
     },
     "SimpleCQRS.UAM.Common/1.0.0": {
       "type": "project",

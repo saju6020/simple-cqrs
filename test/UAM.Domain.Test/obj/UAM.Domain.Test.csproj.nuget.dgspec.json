@@ -419,8 +419,8 @@
               "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Database\\UAM.Database.csproj"
               },
-              "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
               }
             }
           }
@@ -464,12 +464,12 @@
         }
       }
     },
-    "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
-        "projectName": "Platform.Infrastructure.Validation.FluentValidation",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Validation.FluentValidationProvider.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
+        "projectName": "Platform.Infrastructure.Validation.FluentValidationProvider",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\Validation.FluentValidation\\obj\\",
         "projectStyle": "PackageReference",

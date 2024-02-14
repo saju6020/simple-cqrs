@@ -1,4 +1,4 @@
-﻿namespace Validation.FluentValidationProvider.Extensions
+﻿namespace Platform.Infrastructure.Validation.FluentValidationProvider.Extensions
 {
     using System;
     using Microsoft.Extensions.DependencyInjection;

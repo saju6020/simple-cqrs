@@ -215,8 +215,8 @@
     },
     "Platform.Infrastructure.ServiceRegistration.Provider/1.0.0": {
       "type": "project",
-      "path": "../ServiceRegistration.Provider/ServiceRegistration.Provider.csproj",
-      "msbuildProject": "../ServiceRegistration.Provider/ServiceRegistration.Provider.csproj"
+      "path": "../ServiceRegistration.Provider/Platform.Infrastructure.ServiceRegistration.Provider.csproj",
+      "msbuildProject": "../ServiceRegistration.Provider/Platform.Infrastructure.ServiceRegistration.Provider.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -232,9 +232,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
       "projectName": "Platform.Infrastructure.EndpointRoleFeatureMap",
-      "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+      "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
       "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
       "outputPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\obj\\",
       "projectStyle": "PackageReference",
@@ -256,8 +256,8 @@
             "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\Platform.Infrastructure.ServiceRegistration.Provider.csproj"
             }
           }
         }

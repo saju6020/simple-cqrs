@@ -4,12 +4,12 @@
     "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
+    "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
         "projectName": "Platform.Infrastructure.EndpointRoleFeatureMap",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\obj\\",
         "projectStyle": "PackageReference",
@@ -223,8 +223,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\EndpointRoleFeatureMap.csproj"
+              "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\EndpointRoleFeatureMap\\Platform.Infrastructure.EndpointRoleFeatureMap.csproj"
               },
               "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
@@ -287,7 +287,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
-        "projectName": "Platform.Infrastructure.ServiceRegistration.Provider",
+        "projectName": "ServiceRegistration.Provider",
         "projectPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\ServiceRegistration.Provider.csproj",
         "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
         "outputPath": "C:\\Repo\\simple-cqrs\\src\\ServiceRegistration.Provider\\obj\\",

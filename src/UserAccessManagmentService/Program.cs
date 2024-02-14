@@ -7,7 +7,7 @@ using System.Text;
 using SimpleCQRS.UAM.Mapper;
 using UAM.WebService.Configuration;
 using Platform.Infrastructure.Core.Extensions;
-using Validation.FluentValidationProvider.Extensions;
+using Platform.Infrastructure.Validation.FluentValidationProvider.Extensions;
 using Platform.Infrastructure.Common.Security;
 using SimpleCQRS.UAM.Domain.Extension;
 using Platform.Infrastructure.Authentication;
