@@ -6,7 +6,7 @@ namespace Platform.Infrastructure.LogConfiguration.SerilogConfiguration
     using Platform.Infrastructure.LogConfiguration.Abstraction;
 
     /// <summary>Configure Serilog.</summary>
-    /// <seealso cref="Shohoz.Core.Infrastructure.LogConfiguration.Common.ILogConfiguration" />
+    /// <seealso cref="Core.Infrastructure.LogConfiguration.Common.ILogConfiguration" />
     public class SeriLogConfiguration : ILogConfiguration
     {
         /// <summary>Initializes a new instance of the <see cref="SeriLogConfiguration"/> class.</summary>

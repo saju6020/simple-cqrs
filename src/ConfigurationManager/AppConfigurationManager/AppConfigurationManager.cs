@@ -1,7 +1,7 @@
 ﻿namespace Platform.Infrastructure.AppConfigurationManager
 {
     /// <summary>This class is to manage app configuration.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.AppConfigurationManager.IAppConfigurationManager" />
+    /// <seealso cref="Platform.Infrastructure.AppConfigurationManager.IAppConfigurationManager" />
     public class AppConfigurationManager : IAppConfigurationManager
     {
         /// <summary>Initializes a new instance of the <see cref="AppConfigurationManager"/> class.</summary>

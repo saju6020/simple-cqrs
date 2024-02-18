@@ -2,7 +2,7 @@
 {
     /// <summary>This class will allow user to include their appsettings through template to merge with the default settings.</summary>
     /// <typeparam name="T">User defined appsettings.</typeparam>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.AppConfigurationManager.IAppConfigurationManager{T}" />
+    /// <seealso cref="Platform.Infrastructure.AppConfigurationManager.IAppConfigurationManager{T}" />
     public class AppConfigurationManager<T> : IAppConfigurationManager<T>
         where T : IAppSettings
     {

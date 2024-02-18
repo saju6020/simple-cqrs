@@ -4,7 +4,7 @@
 
     /// <summary>This class will allow user to include their appsettings through template to merge with the default settings.</summary>
     /// <typeparam name="T">User defined appsettings.</typeparam>
-    /// <seealso cref="Shohoz.Core.Infrastructure.AppConfigurationManager.IAppConfigurationManager{T}" />
+    /// <seealso cref="Core.Infrastructure.AppConfigurationManager.IAppConfigurationManager{T}" />
     public class AzureBasedAppConfigurationManager<T> : IAppConfigurationManager<T>
         where T : IAppSettings
     {

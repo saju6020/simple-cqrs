@@ -8,7 +8,7 @@
     public class RequireMfaHandler : AuthorizationHandler<RequireMfa>
     {
         private const string Amr = "amr";
-        private const string ShohozMfa = "shohoz_mfa";
+        private const string AmrMfa = "amr_mfa";
 
         /// <inheritdoc/>
         protected override Task HandleRequirementAsync(
@@ -28,7 +28,7 @@
             var amrClaim =
                 context.User.Claims.FirstOrDefault(t => t.Type == Amr);
 
-            if (amrClaim != null && amrClaim.Value == ShohozMfa)
+            if (amrClaim != null && amrClaim.Value == AmrMfa)
             {
                 context.Succeed(requirement);
             }

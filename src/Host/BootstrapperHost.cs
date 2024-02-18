@@ -45,9 +45,9 @@
             serviceCollection.AddSingleton<IGlobalSettingsProvider>(this.GlobalSettingsProvider);
             serviceCollection.AddSingleton<IAppConfigurationManager>(this.AppConfigurationManager);
 
-            if (serviceConfig.UseShohozLocalization)
+            if (serviceConfig.UseLocalization)
             {
-               // serviceCollection.UseShohozLocalization();
+               // serviceCollection.UseLocalization();
             }
 
             return this;

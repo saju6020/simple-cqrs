@@ -5,8 +5,8 @@
 		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Authors>Shohoz</Authors>
-		<Company>Shohoz</Company>
+		<Authors></Authors>
+		<Company></Company>
 		<Version>1.0.0</Version>
 	</PropertyGroup>
 

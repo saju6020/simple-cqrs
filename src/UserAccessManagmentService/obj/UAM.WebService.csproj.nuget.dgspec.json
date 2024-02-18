@@ -73,6 +73,156 @@
         }
       }
     },
+    "C:\\Repo\\simple-cqrs\\src\\Bus.Abstraction\\Platform.Infrastructure.Bus.Abstraction.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Bus.Abstraction\\Platform.Infrastructure.Bus.Abstraction.csproj",
+        "projectName": "Platform.Infrastructure.Bus.Abstraction",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Bus.Abstraction\\Platform.Infrastructure.Bus.Abstraction.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Bus.Abstraction\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\simple-cqrs\\src\\Bus.RabbitMQ\\Platform.Infrastructure.Bus.RabbitMQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Bus.RabbitMQ\\Platform.Infrastructure.Bus.RabbitMQ.csproj",
+        "projectName": "Platform.Infrastructure.Bus.RabbitMQ",
+        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Bus.RabbitMQ\\Platform.Infrastructure.Bus.RabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Bus.RabbitMQ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\Bus.Abstraction\\Platform.Infrastructure.Bus.Abstraction.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Bus.Abstraction\\Platform.Infrastructure.Bus.Abstraction.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Repo\\simple-cqrs\\src\\ConfigurationManager\\AppConfigurationManager\\Platform.Infrastructure.AppConfigurationManager.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -1190,6 +1340,9 @@
             "projectReferences": {
               "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\Authentication\\Platform.Infrastructure.Authentication.csproj"
+              },
+              "C:\\Repo\\simple-cqrs\\src\\Bus.RabbitMQ\\Platform.Infrastructure.Bus.RabbitMQ.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Bus.RabbitMQ\\Platform.Infrastructure.Bus.RabbitMQ.csproj"
               },
               "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\Host.WebApi\\Platform.Infrastructure.Host.WebApi.csproj"

@@ -6,7 +6,6 @@
     <AssemblyName>$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
     <SignAssembly>False</SignAssembly>
-    <AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>

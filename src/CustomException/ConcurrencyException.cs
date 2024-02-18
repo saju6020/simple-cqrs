@@ -3,7 +3,7 @@
     using System;
 
     /// <summary>ConcurrencyException class.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.CustomException.BaseException" />
+    /// <seealso cref="Platform.Infrastructure.CustomException.BaseException" />
     public class ConcurrencyException : BaseException
     {
         public ConcurrencyException(Guid aggregateRootId, int expectedVersion, int actualVersion)

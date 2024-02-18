@@ -1,0 +1,6 @@
+@CommandWebHost_HostAddress = http://localhost:5210
+
+GET {{CommandWebHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

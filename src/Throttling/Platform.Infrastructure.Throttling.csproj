@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Shohoz.Platform.Infrastructure.Throttling</AssemblyName>
-    <RootNamespace>Shohoz.Platform.Infrastructure.Throttling</RootNamespace>
+    <AssemblyName>Platform.Infrastructure.Throttling</AssemblyName>
+    <RootNamespace>Platform.Infrastructure.Throttling</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AspNetCoreRateLimit" Version="4.0.0" />

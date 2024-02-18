@@ -1,8 +1,4 @@
-﻿// <copyright file="Constants.cs" company="Shohoz">
-// Copyright © 2015-2021 Shohoz. All Rights Reserved.
-// </copyright>
-
-namespace SimpleCQRS.UAM.Common
+﻿namespace SimpleCQRS.UAM.Common
 {
     using System.Diagnostics.CodeAnalysis;
 

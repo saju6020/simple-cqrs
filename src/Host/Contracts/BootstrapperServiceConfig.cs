@@ -24,10 +24,10 @@
         ///   <c>true</c> if [use end point2fa protection]; otherwise, <c>false</c>.</value>
         public bool UseEndPoint2faProtection { get; set; }
 
-        /// <summary>Gets or sets a value indicating whether [use shohoz localization].</summary>
+        /// <summary>Gets or sets a value indicating whether [use localization].</summary>
         /// <value>
-        /// <c>true</c> if [use shohoz localization]; otherwise, <c>false</c>.</value>
-        public bool UseShohozLocalization { get; set; }
+        /// <c>true</c> if [use  localization]; otherwise, <c>false</c>.</value>
+        public bool UseLocalization { get; set; }
 
         /// <summary>Gets or sets a value indicating whether [use hash protection].</summary>
         /// <value>

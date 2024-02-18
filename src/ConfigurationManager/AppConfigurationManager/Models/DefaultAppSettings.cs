@@ -1,7 +1,7 @@
 ﻿namespace Platform.Infrastructure.AppConfigurationManager
 {
     /// <summary>Default App Settings Model.</summary>
-    /// <seealso cref="Shohoz.Core.Infrastructure.AppConfigurationManager.IAppSettings" />
+    /// <seealso cref="Core.Infrastructure.AppConfigurationManager.IAppSettings" />
     public class DefaultAppSettings : IAppSettings
     {
         /// <summary>Gets or sets the name of the service.</summary>

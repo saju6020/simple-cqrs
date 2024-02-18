@@ -5,7 +5,7 @@
     "Tenants": [
       {
         "Id": "67a5163c-565d-4ca0-b117-87c701f654f9",
-        "Name": "ShohozDhaka",
+        "Name": "TenantDhaka",
         "Verticals": [
           {
             "Id": "delivery",

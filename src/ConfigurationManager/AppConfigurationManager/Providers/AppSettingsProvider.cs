@@ -7,7 +7,7 @@
     using Platform.Infrastructure.CustomException;
 
     /// <summary>This class provide the app settings.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.AppConfigurationManager.IAppSettingsProvider" />
+    /// <seealso cref="Platform.Infrastructure.AppConfigurationManager.IAppSettingsProvider" />
     public class AppSettingsProvider : IAppSettingsProvider
     {
         /// <summary>Gets the configuration root.</summary>

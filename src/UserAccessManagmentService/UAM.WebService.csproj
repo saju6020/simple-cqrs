@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Authentication\Platform.Infrastructure.Authentication.csproj" />
+    <ProjectReference Include="..\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
     <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
     <ProjectReference Include="..\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
     <ProjectReference Include="..\UAM.Common\UAM.Common.csproj" />

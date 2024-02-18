@@ -10,7 +10,7 @@
     using Platform.Infrastructure.NoSql.Repository.Contracts;
 
     /// <summary>Mongo repository abstraction.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.Repository.Contracts.IRepository" />
+    /// <seealso cref="Platform.Infrastructure.Repository.Contracts.IRepository" />
     public interface IMongoRepository : IRepository
     {
         /// <summary>

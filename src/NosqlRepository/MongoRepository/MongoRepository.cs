@@ -11,7 +11,7 @@
     using Platform.Infrastructure.NoSql.Repository.Contracts.Models;
 
     /// <summary>Mongo repository to perform operation with mongo db.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.MongoRepository.IMongoRepository" />
+    /// <seealso cref="Platform.Infrastructure.MongoRepository.IMongoRepository" />
     public class MongoRepository : IMongoRepository
     {
         private const string CacheKeyPrefix = "MongoCS-";

@@ -37,7 +37,7 @@
 
             var userContext = new UserContext
             {
-                Email = claimsIdentity.HasClaim(claim => claim.Type.Equals(Common.Security.ClaimTypes.Email)) ? claimsIdentity.Claims.First(c => c.Type == Common.Security.ClaimTypes.Email).Value.ToLower() : "info@shohoz.com",
+                Email = claimsIdentity.HasClaim(claim => claim.Type.Equals(Common.Security.ClaimTypes.Email)) ? claimsIdentity.Claims.First(c => c.Type == Common.Security.ClaimTypes.Email).Value.ToLower() : "info@xyz.com",
                 LanguageCode = "en-US",
                 PhoneNumber = claimsIdentity.HasClaim(claim => claim.Type.Equals(Common.Security.ClaimTypes.PhoneNumber)) ? claimsIdentity.Claims.First(c => c.Type.Equals(Common.Security.ClaimTypes.PhoneNumber)).Value : "no-phone",
                 Roles = claimsIdentity.Claims.Where(c => c.Type == Common.Security.ClaimTypes.Role).Select(c => c.Value).ToArray(),

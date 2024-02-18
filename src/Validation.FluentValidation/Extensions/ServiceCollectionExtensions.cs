@@ -4,7 +4,7 @@
     using Microsoft.Extensions.DependencyInjection;
     using Platform.Infrastructure.Core.Extensions;
     using Platform.Infrastructure.Core.Validation;
-    using Shohoz.Platform.Infrastructure.Validation.FluentValidationProvider;
+    using Platform.Infrastructure.Validation.FluentValidationProvider;
 
     /// <summary>Class to contain extension method related to fluent validation.</summary>
     public static class ServiceCollectionExtensions

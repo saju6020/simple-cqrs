@@ -3,7 +3,7 @@
     using System;
 
     /// <summary>Handler Not Found Exception.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.CustomException.BaseException" />
+    /// <seealso cref="Platform.Infrastructure.CustomException.BaseException" />
     public class HandlerNotFoundException : BaseException
     {
         public HandlerNotFoundException(Type handlerType)

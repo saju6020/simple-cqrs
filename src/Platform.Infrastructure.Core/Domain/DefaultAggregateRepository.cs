@@ -1,8 +1,4 @@
-﻿// <copyright file="DefaultAggregateRepository.cs" company="Shohoz">
-// Copyright © 2015-2020  All Rights Reserved.
-// </copyright>
-
-/*
+﻿/*
 namespace Platform.Infrastructure.Core.Domain
 {
     using System;

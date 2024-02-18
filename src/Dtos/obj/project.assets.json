@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Dtos\\Blog.Dtos.csproj",
-      "projectName": "Blog.Dtos",
-      "projectPath": "C:\\Repo\\simple-cqrs\\src\\Dtos\\Blog.Dtos.csproj",
+      "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Dtos\\Dtos.csproj",
+      "projectName": "Dtos",
+      "projectPath": "C:\\Repo\\simple-cqrs\\src\\Dtos\\Dtos.csproj",
       "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
       "outputPath": "C:\\Repo\\simple-cqrs\\src\\Dtos\\obj\\",
       "projectStyle": "PackageReference",

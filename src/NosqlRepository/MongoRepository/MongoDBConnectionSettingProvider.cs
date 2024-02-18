@@ -6,7 +6,7 @@
     using Platform.Infrastructure.NoSql.Repository.Contracts.Models;
 
     /// <summary>Mongo db connection setting provider.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.MongoRepository.IMongoDbConnectionSettingsProvider" />
+    /// <seealso cref="Platform.Infrastructure.MongoRepository.IMongoDbConnectionSettingsProvider" />
     public class MongoDbConnectionSettingProvider : IMongoDbConnectionSettingsProvider
     {
         /// <summary>The application configuration manager.</summary>

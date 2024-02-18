@@ -8,7 +8,7 @@
         /// <summary>
         /// An constant string used as name in HttpClientFactory.
         /// </summary>
-        public const string ClientName = "Shohoz-Http";
+        public const string ClientName = "Client-Http";
 
         /// <summary>
         /// Circuit Breaker configuration key name.

@@ -2,10 +2,9 @@
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
-		<AssemblyName>Shohoz.Platform.Infrastructure.MongoRepository</AssemblyName>
-		<RootNamespace>Shohoz.Platform.Infrastructure.MongoRepository</RootNamespace>
+		<AssemblyName>Platform.Infrastructure.MongoRepository</AssemblyName>
+		<RootNamespace>Platform.Infrastructure.MongoRepository</RootNamespace>
 		<SignAssembly>False</SignAssembly>
-		<AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
 
 	<ItemGroup>

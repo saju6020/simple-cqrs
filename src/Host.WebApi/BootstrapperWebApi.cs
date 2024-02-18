@@ -11,8 +11,8 @@
     using AppConfigurationManager = Platform.Infrastructure.AppConfigurationManager.AppConfigurationManager;
 
     /// <summary>This class to bootstrap web api with proper middleware and service registration.</summary>
-    /// <seealso cref="Shohoz.Platform.Infrastructure.Host.BootstrapperHost" />
-    /// <seealso cref="Shohoz.Platform.Infrastructure.Host.WebApi.IBootstrapperWeb" />
+    /// <seealso cref="Platform.Infrastructure.Host.BootstrapperHost" />
+    /// <seealso cref="Platform.Infrastructure.Host.WebApi.IBootstrapperWeb" />
     public class BootstrapperWebApi : BootstrapperHost, IBootstrapperWeb
     {
         public BootstrapperWebApi()

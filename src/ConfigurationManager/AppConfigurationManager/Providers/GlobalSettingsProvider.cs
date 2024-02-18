@@ -17,7 +17,7 @@
         {
             if (string.IsNullOrEmpty(globalSettingsJsonPath))
             {
-                var message = $"{ApplicationConstants.GlobalSettingsJsonPathKey} is not defined in app/web settings file please add it in following way\n <add key=\"{ApplicationConstants.GlobalSettingsJsonPathKey}\" value=\"C:\\SHOHOZ_CONFIGS\\GlobalConfig.json\"/>";
+                var message = $"{ApplicationConstants.GlobalSettingsJsonPathKey} is not defined in app/web settings file please add it in following way\n <add key=\"{ApplicationConstants.GlobalSettingsJsonPathKey}\" value=\"C:\\CONFIGS\\GlobalConfig.json\"/>";
                 throw new KeyNotFoundException(message);
             }
 

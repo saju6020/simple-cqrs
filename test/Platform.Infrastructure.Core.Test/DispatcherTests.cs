@@ -1,8 +1,4 @@
-﻿// <copyright file="DispatcherTests.cs" company="Shohoz">
-// Copyright © 2015-2020  All Rights Reserved.
-// </copyright>
-
-namespace Core.UnitTest
+﻿namespace Core.UnitTest
 {
     using System;
     using System.Collections.Generic;

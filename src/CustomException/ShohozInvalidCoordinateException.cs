@@ -6,14 +6,14 @@
     /// Exception for Invalid Geo Coordinates.
     /// <seealso cref="System.Exception" />
     /// </summary>
-    public class ShohozInvalidCoordinateException : BaseException
+    public class InvalidCoordinateException : BaseException
     {
-        public ShohozInvalidCoordinateException(string message)
+        public InvalidCoordinateException(string message)
             : base(message)
         {
         }
 
-        public ShohozInvalidCoordinateException(string message, Exception innerException)
+        public InvalidCoordinateException(string message, Exception innerException)
             : base(message, innerException)
         {
         }

@@ -7,7 +7,7 @@
     /// <summary>
     /// Provides extension method of IServiceCollection.
     /// </summary>
-    public static class ShohozTokenAuthentication
+    public static class TokenAuthentication
     {
         /// <summary>
         /// extension method of IServiceCollection.

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<SignAssembly>False</SignAssembly>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Cqrs.Repository.Contracts\Platform.Infrastructure.Cqrs.Repository.Contracts.csproj" />
+	  <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
+	  <ProjectReference Include="..\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
+	  <ProjectReference Include="..\ServiceRegistration.Provider\Platform.Infrastructure.ServiceRegistration.Provider.csproj" />
+	</ItemGroup>
+
+</Project>

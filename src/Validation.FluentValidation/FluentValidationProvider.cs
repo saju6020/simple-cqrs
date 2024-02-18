@@ -1,4 +1,4 @@
-﻿namespace Shohoz.Platform.Infrastructure.Validation.FluentValidationProvider
+﻿namespace Platform.Infrastructure.Validation.FluentValidationProvider
 {
     using System.Linq;
     using System.Threading;

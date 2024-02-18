@@ -7,7 +7,6 @@
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<LangVersion>8.0</LangVersion>
 		<SignAssembly>False</SignAssembly>
-		<AssemblyOriginatorKeyFile>shohoz-sign-assembly.snk</AssemblyOriginatorKeyFile>
 	</PropertyGroup>
 
 	<ItemGroup>

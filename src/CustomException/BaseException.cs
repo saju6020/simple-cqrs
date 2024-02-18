@@ -4,8 +4,8 @@
     using System.Runtime.Serialization;
 
     /// <summary>
-    /// Shohoz exception base. This class will identify is the exception is from handled exception scope or from system.
-    /// If the exception type is ShohozBase that means the exception is from handled scope.
+    /// exception base. This class will identify is the exception is from handled exception scope or from system.
+    /// If the exception type is Base that means the exception is from handled scope.
     /// </summary>
     [Serializable]
     public class BaseException : Exception
