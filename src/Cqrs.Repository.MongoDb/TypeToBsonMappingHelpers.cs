@@ -48,7 +48,7 @@
         }
 
         public static void SetEnumStringConvention<T>()
-            where T : struct
+            where T : struct, Enum
         {
             BsonSerializer.RegisterSerializer(new EnumSerializer<T>(BsonType.String));
         }
