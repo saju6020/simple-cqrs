@@ -5,15 +5,10 @@ using FluentValidation.Results;
 using Platform.Infrastructure.Common.Security;
 using Platform.Infrastructure.Core.Domain;
 using Platform.Infrastructure.Core.Events;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Aggregates
 {
-    internal class ProductAggregate : AggregateRoot
+    public class ProductAggregate : AggregateRoot
     {
         public string Title { get; private set; }
         public string Description { get; private set; }
@@ -33,7 +28,7 @@ namespace Aggregates
             {
                 Title = productDto.Title,
                 Description = productDto.Description,
-                ProductId = this.Id
+                ProductId = productDto.ProductId
             };
 
             this.SetUserContextOnEvent(productCreatedEvent, userContext);
@@ -63,7 +58,10 @@ namespace Aggregates
 
         private void Apply(ProductCreatedEvent @event)
         {
-
+            this.Title = @event.Title;
+            this.Description = @event.Description;
+            this.Id = @event.ProductId;
+            this.SetDefaultValue(@event.UserContext);
         }
     }
 }

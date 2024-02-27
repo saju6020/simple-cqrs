@@ -13,7 +13,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Cqrs.Repository.Contracts\Platform.Infrastructure.Cqrs.Repository.Contracts.csproj" />
 	  <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
 	  <ProjectReference Include="..\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
 	  <ProjectReference Include="..\ServiceRegistration.Provider\Platform.Infrastructure.ServiceRegistration.Provider.csproj" />

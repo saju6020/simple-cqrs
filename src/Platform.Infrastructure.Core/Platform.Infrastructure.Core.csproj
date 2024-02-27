@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
     <ProjectReference Include="..\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
   </ItemGroup>
 

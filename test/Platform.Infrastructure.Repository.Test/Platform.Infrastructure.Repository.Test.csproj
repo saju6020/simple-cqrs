@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
-    <ProjectReference Include="..\..\src\Repository\Platform.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\..\src\Repository\Platform.Infrastructure.Repository.EF.csproj" />
   </ItemGroup>
 
 </Project>

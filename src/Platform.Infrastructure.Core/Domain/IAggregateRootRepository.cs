@@ -1,4 +1,4 @@
-﻿namespace Platform.Infrastructure.Cqrs.Repository.Contracts
+﻿namespace Platform.Infrastructure.Core.Domain
 {
     using Platform.Infrastructure.Core.Domain;
     using System;

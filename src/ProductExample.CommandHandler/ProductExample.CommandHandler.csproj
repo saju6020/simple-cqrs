@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Platform.Infrastructure.Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\ProductExample.Aggregates\ProductExample.Aggregates.csproj" />
+    <ProjectReference Include="..\ProductExample.Commands\ProductExample.Commands.csproj" />
+  </ItemGroup>
+
 </Project>

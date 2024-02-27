@@ -84,6 +84,21 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "EntityFrameworkCore.Extensions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.8",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll": {}
+        }
+      },
       "FluentValidation/8.5.1": {
         "type": "package",
         "dependencies": {
@@ -316,6 +331,22 @@
         "runtime": {
           "lib/net7.0/Microsoft.EntityFrameworkCore.DynamicLinq.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2802,7 +2833,8 @@
         "dependencies": {
           "Microsoft.Extensions.Logging": "7.0.0",
           "Newtonsoft.Json": "13.0.3",
-          "Platform.Infrastructure.Common": "1.0.0"
+          "Platform.Infrastructure.Common": "1.0.0",
+          "Platform.Infrastructure.CustomException": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}
@@ -2811,29 +2843,30 @@
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}
         }
       },
-      "Platform.Infrastructure.Repository/1.0.0": {
+      "Platform.Infrastructure.CustomException/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Platform.Infrastructure.CustomException.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Platform.Infrastructure.CustomException.dll": {}
+        }
+      },
+      "Platform.Infrastructure.Repository.EF/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EntityFrameworkCore.Extensions": "5.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.DynamicLinq": "7.3.4",
-          "Platform.Infrastructure.Repository.Contract": "1.0.0"
+          "Platform.Infrastructure.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Platform.Infrastructure.Repository.dll": {}
+          "bin/placeholder/Platform.Infrastructure.Repository.EF.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Platform.Infrastructure.Repository.dll": {}
-        }
-      },
-      "Platform.Infrastructure.Repository.Contract/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Platform.Infrastructure.Repository.Contract.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Platform.Infrastructure.Repository.Contract.dll": {}
+          "bin/placeholder/Platform.Infrastructure.Repository.EF.dll": {}
         }
       },
       "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
@@ -3023,6 +3056,18 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "EntityFrameworkCore.Extensions/5.0.0": {
+      "sha512": "dJUUttgCdutyFjnZWTQvmPx00hRvUpZYQ1GA4Zlbk06Qr0Vk0aPOUz6W8NZWXZtEwNduwe3hLF6nE8FdrBCphg==",
+      "type": "package",
+      "path": "entityframeworkcore.extensions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "entityframeworkcore.extensions.5.0.0.nupkg.sha512",
+        "entityframeworkcore.extensions.nuspec",
+        "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll"
       ]
     },
     "FluentValidation/8.5.1": {
@@ -3410,6 +3455,20 @@
         "logo.png",
         "microsoft.entityframeworkcore.dynamiclinq.7.3.4.nupkg.sha512",
         "microsoft.entityframeworkcore.dynamiclinq.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+      "sha512": "LV9/hBseBO3kZKa/MPlWfLvfKL64Q7y2ZW2euW+kcNhhAQWsl52JIQHSL1Gu3CnzfQVbGUDkusnN4OWh6k/ALw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.5.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.11": {
@@ -8766,15 +8825,15 @@
       "path": "../../src/Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj",
       "msbuildProject": "../../src/Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj"
     },
-    "Platform.Infrastructure.Repository/1.0.0": {
+    "Platform.Infrastructure.CustomException/1.0.0": {
       "type": "project",
-      "path": "../../src/Repository/Platform.Infrastructure.Repository.csproj",
-      "msbuildProject": "../../src/Repository/Platform.Infrastructure.Repository.csproj"
+      "path": "../../src/CustomException/Platform.Infrastructure.CustomException.csproj",
+      "msbuildProject": "../../src/CustomException/Platform.Infrastructure.CustomException.csproj"
     },
-    "Platform.Infrastructure.Repository.Contract/1.0.0": {
+    "Platform.Infrastructure.Repository.EF/1.0.0": {
       "type": "project",
-      "path": "../../src/Platform.Infrastructure.Repository.Contract/Platform.Infrastructure.Repository.Contract.csproj",
-      "msbuildProject": "../../src/Platform.Infrastructure.Repository.Contract/Platform.Infrastructure.Repository.Contract.csproj"
+      "path": "../../src/Repository/Platform.Infrastructure.Repository.EF.csproj",
+      "msbuildProject": "../../src/Repository/Platform.Infrastructure.Repository.EF.csproj"
     },
     "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
       "type": "project",
@@ -8803,7 +8862,7 @@
       "Moq >= 4.20.69",
       "Platform.Infrastructure.Common >= 1.0.0",
       "Platform.Infrastructure.Core >= 1.0.0",
-      "Platform.Infrastructure.Repository >= 1.0.0",
+      "Platform.Infrastructure.Repository.EF >= 1.0.0",
       "SimpleCQRS.UAM.Common >= 1.0.0",
       "SimpleCQRS.UAM.Domain >= 1.0.0",
       "coverlet.collector >= 3.1.2",
@@ -8844,8 +8903,8 @@
             "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.EF.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.EF.csproj"
             },
             "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"

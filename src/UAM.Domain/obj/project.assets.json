@@ -1132,13 +1132,24 @@
         "dependencies": {
           "Microsoft.Extensions.Logging": "7.0.0",
           "Newtonsoft.Json": "13.0.3",
-          "Platform.Infrastructure.Common": "1.0.0"
+          "Platform.Infrastructure.Common": "1.0.0",
+          "Platform.Infrastructure.CustomException": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}
         },
         "runtime": {
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}
+        }
+      },
+      "Platform.Infrastructure.CustomException/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Platform.Infrastructure.CustomException.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Platform.Infrastructure.CustomException.dll": {}
         }
       },
       "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
@@ -3096,6 +3107,11 @@
       "type": "project",
       "path": "../Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj",
       "msbuildProject": "../Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj"
+    },
+    "Platform.Infrastructure.CustomException/1.0.0": {
+      "type": "project",
+      "path": "../CustomException/Platform.Infrastructure.CustomException.csproj",
+      "msbuildProject": "../CustomException/Platform.Infrastructure.CustomException.csproj"
     },
     "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
       "type": "project",

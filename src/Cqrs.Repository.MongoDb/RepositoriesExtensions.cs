@@ -1,7 +1,8 @@
 ﻿namespace Platform.Infrastructure.Cqrs.Repository.MongoDb
 {
     using Microsoft.Extensions.DependencyInjection;
-    using Platform.Infrastructure.Cqrs.Repository.Contracts;
+    using Platform.Infrastructure.Core.Domain;
+    using Platform.Infrastructure.Core.Queries;
     using Platform.Infrastructure.ServiceRegistry;
 
     public static class RepositoriesExtensions
@@ -9,7 +10,7 @@
         public static IServiceCollection AddReadRepository(this IServiceCollection serviceCollection)
         {
             AddRepositoryDefaults(serviceCollection);
-            serviceCollection.AddSingleton<IReadRepository, MongoReadRepository>();
+            serviceCollection.AddSingleton<IReadRepository, ReadRepository>();
 
             return serviceCollection;
         }
@@ -17,7 +18,7 @@
         public static IServiceCollection AddStateRepository(this IServiceCollection serviceCollection)
         {
             AddRepositoryDefaults(serviceCollection);
-            serviceCollection.AddSingleton<IStateRepository, MongoStateRepository>();
+            serviceCollection.AddSingleton<IStateRepository, StateRepository>();
 
             return serviceCollection;
         }
@@ -25,7 +26,7 @@
         public static IServiceCollection AddEventRepository(this IServiceCollection serviceCollection)
         {
             AddRepositoryDefaults(serviceCollection);
-            serviceCollection.AddSingleton<IEventRepository, MongoEventRepository>();
+            serviceCollection.AddSingleton<IEventRepository, EventRepository>();
 
             return serviceCollection;
         }

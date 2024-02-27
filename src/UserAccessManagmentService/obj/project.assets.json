@@ -3584,7 +3584,8 @@
         "dependencies": {
           "Microsoft.Extensions.Logging": "7.0.0",
           "Newtonsoft.Json": "13.0.3",
-          "Platform.Infrastructure.Common": "1.0.0"
+          "Platform.Infrastructure.Common": "1.0.0",
+          "Platform.Infrastructure.CustomException": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}

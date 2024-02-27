@@ -6,15 +6,14 @@
     using System.Linq.Expressions;
     using System.Threading.Tasks;
     using MongoDB.Driver;
-    using Platform.Infrastructure.Cqrs.Repository.Contracts;
-    using Platform.Infrastructure.Cqrs.Repository.MongoDb;
+    using Platform.Infrastructure.Core;
 
-    internal class MongoCqrsRepository : ICqrsRepository
+    internal class Repository : IRepository
     {
         private readonly DatabaseType databaseType;
         private readonly MongoDbConnectionCache mongoDbConnectionCache;
 
-        public MongoCqrsRepository(DatabaseType databaseType, MongoDbConnectionCache mongoDbConnectionCache)
+        public Repository(DatabaseType databaseType, MongoDbConnectionCache mongoDbConnectionCache)
         {
             this.databaseType = databaseType;
             this.mongoDbConnectionCache = mongoDbConnectionCache;
@@ -40,7 +39,8 @@
             return this.GetCollection<T>().AsQueryable().Where(dataFilters);
         }
 
-        public Task SaveAsync<T>(T data)
+        public Task CreateAsync<T>(T data)
+            where T : class
         {
             return this.GetCollection<T>().InsertOneAsync(data);
         }
@@ -82,5 +82,28 @@
             return this.GetCollection<T>().DeleteManyAsync(dataFilters);
         }
 
+        public Task<IEnumerable<T>> GetItemsAsync<T>(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null, int? skip = null, int? take = null)
+            where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> GetOneAsync<T>(Expression<Func<T, bool>> filter = null, string includeProperties = null)
+            where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> GetByIdAsync<T>(Guid id)
+            where T : class
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> GetCountAsync<T>(Expression<Func<T, bool>> filter = null)
+            where T : class
+        {
+            throw new NotImplementedException();
+        }
     }
 }

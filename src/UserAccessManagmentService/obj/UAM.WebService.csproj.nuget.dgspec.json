@@ -753,6 +753,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj": {
+                "projectPath": "C:\\Repo\\simple-cqrs\\src\\CustomException\\Platform.Infrastructure.CustomException.csproj"
+              },
               "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
                 "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
               }
