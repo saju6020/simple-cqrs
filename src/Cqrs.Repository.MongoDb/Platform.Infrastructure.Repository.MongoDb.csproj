@@ -9,7 +9,6 @@
 
 	<ItemGroup>
 	  <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
-    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
 	</ItemGroup>
 
 	<ItemGroup>

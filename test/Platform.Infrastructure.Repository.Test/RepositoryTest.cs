@@ -16,21 +16,7 @@ namespace Platform.Infrastructure.Repository.Test
             this.InitUser();
 
         }
-
-        [Test]
-        public void Get_ItemById_Successflly()
-        {
-            var user = mockRepository.MockRepo.Object.GetById<TestUser>(new Guid("58697233-07f3-474b-8152-07dbfaf27c60"));
-            Assert.NotNull(user);
-        }
-
-        [Test]
-        public void Get_ItemById_Failed()
-        {
-            var user = mockRepository.MockRepo.Object.GetById<TestUser>(new Guid("58697233-07f3-474b-8152-07dbfaf27c61"));
-            Assert.IsNull(user);
-        }
-
+       
         [Test]
         public async Task Create_Successfully()
         {
@@ -55,11 +41,11 @@ namespace Platform.Infrastructure.Repository.Test
         [Test]
         public async Task Delete_Item_Successfully()
         {            
-            await mockRepository.MockRepo.Object.DeleteAsync<TestUser>(new Guid("1f9ebad8-d2d4-4ff9-8098-aac879623a54"));
+            await mockRepository.MockRepo.Object.DeleteAsync<TestUser>(t=>t.Id == new Guid("1f9ebad8-d2d4-4ff9-8098-aac879623a54"));
 
             int expectedCount = 4;
 
-            var user = mockRepository.MockRepo.Object.GetById<TestUser>(new Guid("1f9ebad8-d2d4-4ff9-8098-aac879623a54"));
+            var user = mockRepository.MockRepo.Object.GetItemAsync<TestUser>(t => t.Id == new Guid("1f9ebad8-d2d4-4ff9-8098-aac879623a54"));
             Assert.IsNull(user);
 
             Assert.IsTrue(expectedCount == this.mockRepository.Context.Count);

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Platform.Infrastructure.Repository
 {
-    public class ReadRepository<TContext> : IReadOnlyRepository
+    public class ReadRepository<TContext> : IRepository
     where TContext : DbContext
     {
         protected readonly TContext context;

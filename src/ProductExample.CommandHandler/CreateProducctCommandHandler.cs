@@ -5,12 +5,6 @@ using Microsoft.Extensions.Logging;
 using Platform.Infrastructure.Common.Security;
 using Platform.Infrastructure.Core.Commands;
 using Platform.Infrastructure.Core.Domain;
-using Platform.Infrastructure.Cqrs.Repository.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProductExample.CommandHandler
 {

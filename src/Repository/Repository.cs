@@ -26,7 +26,7 @@ namespace Platform.Infrastructure.Repository
         }
        
 
-        public async Task UpdateAsync<T>(Expression<Func<T, bool>> dataFilters = null, T data)
+        public async Task UpdateAsync<T>(T data, Expression<Func<T, bool>>? dataFilters = null)
            where T : class
         {
             await Task.Run(() =>
@@ -148,7 +148,7 @@ namespace Platform.Infrastructure.Repository
             return await GetQueryable<T>(dataFilters).AnyAsync();
         }
 
-        public async Task<bool> ReplaceAsync<T>(Expression<Func<T, bool>> dataFilters, T data)
+        public async Task<bool> ReplaceAsync<T>(T data, Expression<Func<T, bool>>? dataFilters = null)
             where T : class
         {
             var item = await GetQueryable<T>(dataFilters).FirstOrDefaultAsync();
@@ -156,13 +156,13 @@ namespace Platform.Infrastructure.Repository
             return context.Entry(data).State == EntityState.Modified;
         }
 
-        public async Task UpsertAsync<T>(Expression<Func<T, bool>> dataFilters = null, T data)
+        public async Task UpsertAsync<T>(T data, Expression<Func<T, bool>>? dataFilters = null)
             where T : class
         {
             await Task.Run(async () =>
             {
                 context.Set<T>().Update(data);
-            };
+            });
         }
 
         public async Task SaveManyAsync<T>(IEnumerable<T> data)
@@ -178,7 +178,7 @@ namespace Platform.Infrastructure.Repository
             {
                 var items = await GetItemAsync<T>(dataFilters);
                 context.Set<T>().RemoveRange(items);
-            };
+            });
         }
 
         public async Task<IEnumerable<T>> GetItemsAsync<T>(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, string? includeProperties = null, int? skip = null, int? take = null) where T : class
@@ -189,11 +189,6 @@ namespace Platform.Infrastructure.Repository
         public async Task<T> GetOneAsync<T>(Expression<Func<T, bool>>? filter = null, string? includeProperties = null) where T : class
         {
            return await GetQueryable<T>(filter).SingleOrDefaultAsync();
-        }
-
-        public async Task<T> GetByIdAsync<T>(Guid id) where T : class
-        {
-            return await context.Set<T>().FindAsync(id);
         }
 
         public async Task<int> GetCountAsync<T>(Expression<Func<T, bool>>? filter = null) where T : class

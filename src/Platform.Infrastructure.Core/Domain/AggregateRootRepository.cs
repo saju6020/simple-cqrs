@@ -1,18 +1,16 @@
 ﻿namespace Platform.Infrastructure.Core.Domain
 {
+    using Platform.Infrastructure.Common.Security;
+    using Platform.Infrastructure.Core.Bus;
+    using Platform.Infrastructure.Core.Events;
+    using Platform.Infrastructure.CustomException;
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
     using System.Threading.Tasks;
-    using Platform.Infrastructure.Common.Security;
-    using Platform.Infrastructure.Core.Bus;
-    using Platform.Infrastructure.Core.Domain;
-    using Platform.Infrastructure.Core.Events;
-    using Platform.Infrastructure.Cqrs.Repository.Contracts;
-    using Platform.Infrastructure.CustomException;
 
-    internal class AggregateRootRepository<T> : IAggregateRootRepository<T>
+    public class AggregateRootRepository<T> : IAggregateRootRepository<T>
         where T : AggregateRoot
     {
         private readonly IBusMessageDispatcher busMessageDispatcher;
@@ -37,7 +35,7 @@
                 UserContext userContext = this.userContextProvider.GetUserContext();
                 aggregate.SetDefaultValue(userContext);
 
-                await this.stateRepository.SaveAsync(aggregate);
+                await this.stateRepository.CreateAsync(aggregate);
                 await this.SaveEventsAsync(aggregate.Events);
             }
 
@@ -53,7 +51,7 @@
                 UserContext userContext = this.userContextProvider.GetUserContext();
                 aggregate.SetDefaultValue(userContext);
 
-                await this.stateRepository.ReplaceAsync(agg => agg.Id == aggregate.Id, aggregate);
+                await this.stateRepository.ReplaceAsync(aggregate, agg => agg.Id == aggregate.Id);
 
                 await this.SaveEventsAsync(aggregate.Events);
             }
@@ -67,7 +65,7 @@
 
             if (aggregate.Events.Any(@event => @event is BusinessRuleViolatedEvent) == false)
             {
-                var replaced = await this.stateRepository.ReplaceAsync(agg => agg.Id == aggregate.Id && agg.Version == expectedVersion, aggregate);
+                var replaced = await this.stateRepository.ReplaceAsync(aggregate, agg => agg.Id == aggregate.Id && agg.Version == expectedVersion);
 
                 if (!replaced)
                 {
@@ -123,7 +121,7 @@
                     UserId = domainEvent.UserContext.UserId,
                 };
 
-                await this.eventRepository.SaveAsync(eventDocument);
+                await this.eventRepository.CreateAsync(eventDocument);
             }
         }
 

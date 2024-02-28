@@ -12,6 +12,10 @@ namespace ProductExample.EventHandlers
     internal class ProductCreatedEventHandler : IEventHandlerAsync<ProductCreatedEvent>
     {
         private readonly ILogger<ProductCreatedEventHandler> _logger;
-        private readonly IRepo
+
+        public Task HandleAsync(ProductCreatedEvent @event)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
