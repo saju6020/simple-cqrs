@@ -1,4 +1,4 @@
-﻿namespace Platform.Infrastructure.Cqrs.Repository.MongoDb
+﻿namespace Platform.Infrastructure.Repository.MongoDb
 {
     using System;
     using System.Collections.Generic;
@@ -8,7 +8,7 @@
     using MongoDB.Driver;
     using Platform.Infrastructure.Core;
 
-    internal class Repository : IRepository
+    public class Repository : IRepository
     {
         private readonly DatabaseType databaseType;
         private readonly MongoDbConnectionCache mongoDbConnectionCache;

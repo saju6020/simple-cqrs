@@ -1,4 +1,4 @@
-﻿namespace Platform.Infrastructure.Cqrs.Repository.MongoDb
+﻿namespace Platform.Infrastructure.Repository.MongoDb
 {
     using System;
     using System.Collections.Generic;
