@@ -1,8 +1,6 @@
-﻿using System;
-using Microsoft.AspNetCore.Builder;
-using Serilog;
-using Platform.Infrastructure.AppConfigurationManager;
+﻿using Microsoft.AspNetCore.Builder;
 using Platform.Infrastructure.Host.WebApi.Middlewares;
+using System;
 
 namespace Platform.Infrastructure.Host.WebApi.Extensions
 {
@@ -32,6 +30,68 @@ namespace Platform.Infrastructure.Host.WebApi.Extensions
             applicationBuilder.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
             return applicationBuilder;
+        }
+       
+
+        public static IApplicationBuilder UseHttpPipeline(
+           this IApplicationBuilder applicationBuilder,
+           bool enableAuthorization = false,
+           bool enableServiceIdCheckerMiddleware = false,
+           bool enableTenantIdCheckerMiddleware = false)
+        {
+            if (enableServiceIdCheckerMiddleware)
+            {
+                applicationBuilder.UseMiddleware<ServiceIdHeaderMiddleware>();
+            }
+
+            if (enableTenantIdCheckerMiddleware)
+            {
+                applicationBuilder.UseMiddleware<TenantIdHeaderMiddleware>();
+            }
+
+            applicationBuilder.UseRouting();
+
+            applicationBuilder.UseMiddleware<GlobalExceptionHandlerMiddleware>();
+
+            applicationBuilder.UseCors((corsPolicyBuilder) =>
+                   corsPolicyBuilder
+                   .AllowAnyHeader()
+                   .AllowAnyMethod()
+                   .SetIsOriginAllowed((string origin) => true)
+                   .AllowCredentials()
+                   .SetPreflightMaxAge(TimeSpan.FromDays(365)));
+
+            if (enableAuthorization)
+            {
+                applicationBuilder.UseAuthentication();
+                applicationBuilder.UseAuthorization();
+            }
+
+            applicationBuilder.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                   name: "Default",
+                   pattern: "{controller}/{action}/{id?}");
+                endpoints.MapHealthChecks("/health");
+            });
+
+            return applicationBuilder;
+        }
+
+      
+        private static void UseRoutingAndCors(IApplicationBuilder applicationBuilder)
+        {
+            applicationBuilder.UseRouting();
+
+            applicationBuilder.UseMiddleware<GlobalExceptionHandlerMiddleware>();
+
+            applicationBuilder.UseCors((corsPolicyBuilder) =>
+                   corsPolicyBuilder
+                   .AllowAnyHeader()
+                   .AllowAnyMethod()
+                   .SetIsOriginAllowed((string origin) => true)
+                   .AllowCredentials()
+                   .SetPreflightMaxAge(TimeSpan.FromDays(365)));
         }
     }
 }

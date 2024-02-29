@@ -4,22 +4,22 @@
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Http;
 
-    internal class VerticalIdHeaderMiddleware
+    internal class TenantIdHeaderMiddleware
     {
-        private const string VerticalIdHeaderName = "vertical-id";
+        private const string TenantIdHeaderName = "tenant-id";
 
-        private static readonly string VerticalIdHeaderMissingExceptionMessage = $"{VerticalIdHeaderName} header is mandatory";
+        private static readonly string VerticalIdHeaderMissingExceptionMessage = $"{TenantIdHeaderName} header is mandatory";
 
         private readonly RequestDelegate next;
 
-        public VerticalIdHeaderMiddleware(RequestDelegate next)
+        public TenantIdHeaderMiddleware(RequestDelegate next)
         {
             this.next = next;
         }
 
         public Task InvokeAsync(HttpContext context)
         {
-            var verticalIdHeader = context.Request.Headers[VerticalIdHeaderName];
+            var verticalIdHeader = context.Request.Headers[TenantIdHeaderName];
 
             if (verticalIdHeader.Count == 0)
             {

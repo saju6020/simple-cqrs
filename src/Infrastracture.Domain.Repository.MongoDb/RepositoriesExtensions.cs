@@ -1,8 +1,10 @@
-﻿namespace Platform.Infrastructure.Repository.MongoDb
+﻿namespace Platform.Infrastructure.Cqrs.Repository.MongoDb
 {
     using Microsoft.Extensions.DependencyInjection;
+    using Platform.Infrastracture.Cqrs.Repository.MongoDb;
     using Platform.Infrastructure.Core.Domain;
     using Platform.Infrastructure.Core.Queries;
+    using Platform.Infrastructure.Repository.MongoDb;
     using Platform.Infrastructure.ServiceRegistry;
 
     public static class RepositoriesExtensions

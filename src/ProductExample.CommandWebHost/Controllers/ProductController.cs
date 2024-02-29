@@ -6,7 +6,7 @@ namespace CommandWebHost.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OrderController : ControllerBase
+    public class ProductController : ControllerBase
     {
         // GET: api/<OrderController>
         [HttpGet]

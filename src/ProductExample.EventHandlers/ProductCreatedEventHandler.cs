@@ -14,8 +14,18 @@ namespace ProductExample.EventHandlers
         private readonly ILogger<ProductCreatedEventHandler> _logger;
 
         public Task HandleAsync(ProductCreatedEvent @event)
+
         {
             throw new NotImplementedException();
         }
     }
 }
+
+
+
+
+
+
+
+
+

@@ -1,10 +1,10 @@
 ﻿namespace Platform.Infrastructure.Host.Contracts
 {
     /// <summary>Class to pass user define configuration to bootstrapper service</summary>
-    public class BootstrapperServiceConfig
+    public class HostServiceConfig
     {
-        /// <summary>Initializes a new instance of the <see cref="BootstrapperServiceConfig"/> class.</summary>
-        public BootstrapperServiceConfig()
+        /// <summary>Initializes a new instance of the <see cref="HostServiceConfig"/> class.</summary>
+        public HostServiceConfig()
         {
             this.UseEndpointProtection = false;
         }

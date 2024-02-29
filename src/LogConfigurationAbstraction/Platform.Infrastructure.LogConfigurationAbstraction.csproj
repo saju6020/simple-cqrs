@@ -17,8 +17,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ConfigurationManager\AppConfigurationManager\Platform.Infrastructure.AppConfigurationManager.csproj" />
-  </ItemGroup>
-
 </Project>

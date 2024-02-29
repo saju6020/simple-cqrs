@@ -51,15 +51,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.Bus
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.Bus.RabbitMQ", "src\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj", "{D9280170-9853-4EE5-86B3-A14508A441C6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.Host", "src\Host\Platform.Infrastructure.Host.csproj", "{7BA54EE0-ADC9-4957-9033-4CDE9333B5C3}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.LogConfigurationAbstraction", "src\LogConfigurationAbstraction\Platform.Infrastructure.LogConfigurationAbstraction.csproj", "{7DE2D628-036E-4ACD-8B6A-05CAF1E57271}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.AppConfigurationManager", "src\ConfigurationManager\AppConfigurationManager\Platform.Infrastructure.AppConfigurationManager.csproj", "{960EBA83-1ADC-4E76-831B-159E05295C00}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.CustomException", "src\CustomException\Platform.Infrastructure.CustomException.csproj", "{19CAF06A-D225-45BC-9BAF-17CC43804715}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.SerilogConfiguration", "src\SerilogConfiguration\Platform.Infrastructure.SerilogConfiguration.csproj", "{FC422FFA-F14E-40C6-9EB6-03CEDFBBAD7F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastructure.Host.WebApi", "src\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj", "{53CE2850-1BBC-4584-BB9A-A8ACBD06EB13}"
 EndProject
@@ -109,7 +101,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductExample.ValueObjects
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastracture.Cqrs.Repository.MongoDb", "src\Infrastracture.Domain.Repository.MongoDb\Platform.Infrastracture.Cqrs.Repository.MongoDb.csproj", "{9BA3C50C-8141-4F58-B421-9E67E131A0EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastracture.Domain.Repository.EF", "src\Platform.Infrastracture.Domain.Repository.EF\Platform.Infrastracture.Domain.Repository.EF.csproj", "{24C3772D-9E84-49F2-A7B8-CF75829FCA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Infrastracture.Cqrs.Repository.EF", "src\Platform.Infrastracture.Domain.Repository.EF\Platform.Infrastracture.Cqrs.Repository.EF.csproj", "{24C3772D-9E84-49F2-A7B8-CF75829FCA38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,26 +185,10 @@ Global
 		{D9280170-9853-4EE5-86B3-A14508A441C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9280170-9853-4EE5-86B3-A14508A441C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9280170-9853-4EE5-86B3-A14508A441C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BA54EE0-ADC9-4957-9033-4CDE9333B5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BA54EE0-ADC9-4957-9033-4CDE9333B5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BA54EE0-ADC9-4957-9033-4CDE9333B5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BA54EE0-ADC9-4957-9033-4CDE9333B5C3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DE2D628-036E-4ACD-8B6A-05CAF1E57271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DE2D628-036E-4ACD-8B6A-05CAF1E57271}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DE2D628-036E-4ACD-8B6A-05CAF1E57271}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DE2D628-036E-4ACD-8B6A-05CAF1E57271}.Release|Any CPU.Build.0 = Release|Any CPU
-		{960EBA83-1ADC-4E76-831B-159E05295C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{960EBA83-1ADC-4E76-831B-159E05295C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{960EBA83-1ADC-4E76-831B-159E05295C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{960EBA83-1ADC-4E76-831B-159E05295C00}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19CAF06A-D225-45BC-9BAF-17CC43804715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19CAF06A-D225-45BC-9BAF-17CC43804715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19CAF06A-D225-45BC-9BAF-17CC43804715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19CAF06A-D225-45BC-9BAF-17CC43804715}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC422FFA-F14E-40C6-9EB6-03CEDFBBAD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC422FFA-F14E-40C6-9EB6-03CEDFBBAD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC422FFA-F14E-40C6-9EB6-03CEDFBBAD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC422FFA-F14E-40C6-9EB6-03CEDFBBAD7F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53CE2850-1BBC-4584-BB9A-A8ACBD06EB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53CE2850-1BBC-4584-BB9A-A8ACBD06EB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53CE2850-1BBC-4584-BB9A-A8ACBD06EB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -319,11 +295,7 @@ Global
 		{44A559AF-6C46-478E-B4DB-AABAD2AED2AD} = {F361ABC5-0B7E-49B3-B4AC-0A123B915D15}
 		{76645595-BCDD-42E5-B0BD-7B366E2443D2} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
 		{D9280170-9853-4EE5-86B3-A14508A441C6} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
-		{7BA54EE0-ADC9-4957-9033-4CDE9333B5C3} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
-		{7DE2D628-036E-4ACD-8B6A-05CAF1E57271} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
-		{960EBA83-1ADC-4E76-831B-159E05295C00} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
 		{19CAF06A-D225-45BC-9BAF-17CC43804715} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
-		{FC422FFA-F14E-40C6-9EB6-03CEDFBBAD7F} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
 		{53CE2850-1BBC-4584-BB9A-A8ACBD06EB13} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
 		{5CD83AB3-8F76-4D7C-BD9F-BAEFE39BD8F4} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
 		{32CFA1F0-56F8-411B-9F5B-5D768014DB66} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
