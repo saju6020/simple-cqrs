@@ -18,11 +18,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddJwtBearer(builder.Configuration);
 
-builder.Services.AddCoreServices(new HostServiceConfig { UseEndpointProtection=true});
+builder.Services.AddCoreServices(new HostServiceConfig { UseEndpointProtection=false});
 builder.Services.AddServiceBusProvider(builder.Configuration);
 builder.Services.RegisterServices();
 
 var app = builder.Build();
-app.UseHttpPipeline(enableAuthorization:true, enableServiceIdCheckerMiddleware:false,enableTenantIdCheckerMiddleware:false);
+//app.UseHttpPipeline(enableAuthorization:false, enableServiceIdCheckerMiddleware:false,enableTenantIdCheckerMiddleware:false);
 
 

@@ -11,6 +11,7 @@ namespace ProductExample.CommandWebHost.Extensions
         {
             services.AddScoped<UserContext, UserContext>();
             services.AddSingleton<IUserContextProvider, HttpUserContextProvider>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             return services;
            

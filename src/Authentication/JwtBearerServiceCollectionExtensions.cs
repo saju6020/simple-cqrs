@@ -33,7 +33,7 @@
         {
             IdentityModelEventSource.ShowPII = true;
 
-            services
+             services
            .AddAuthorization()
            .AddAuthentication(authenticationOptions =>
            {
