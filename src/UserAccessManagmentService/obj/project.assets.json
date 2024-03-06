@@ -1613,6 +1613,16 @@
           "bin/placeholder/Platform.Infrastructure.Validation.FluentValidationProvider.dll": {}
         }
       },
+      "ProductExample.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ProductExample.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductExample.Dtos.dll": {}
+        }
+      },
       "SimpleCQRS.UAM.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4402,6 +4412,11 @@
       "path": "../Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
       "msbuildProject": "../Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
     },
+    "ProductExample.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../ProductExample.Dtos/ProductExample.Dtos.csproj",
+      "msbuildProject": "../ProductExample.Dtos/ProductExample.Dtos.csproj"
+    },
     "SimpleCQRS.UAM.Common/1.0.0": {
       "type": "project",
       "path": "../UAM.Common/UAM.Common.csproj",
@@ -4435,6 +4450,7 @@
       "Platform.Infrastructure.Bus.RabbitMQ >= 1.0.0",
       "Platform.Infrastructure.Common >= 1.0.0",
       "Platform.Infrastructure.Host.WebApi >= 1.0.0",
+      "ProductExample.Dtos >= 1.0.0",
       "SimpleCQRS.UAM.Common >= 1.0.0",
       "SimpleCQRS.UAM.Database >= 1.0.0",
       "SimpleCQRS.UAM.Dtos >= 1.0.0",
@@ -4480,6 +4496,9 @@
             },
             "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+            },
+            "C:\\Repo\\simple-cqrs\\src\\ProductExample.Dtos\\ProductExample.Dtos.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\ProductExample.Dtos\\ProductExample.Dtos.csproj"
             },
             "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
               "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"

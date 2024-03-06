@@ -16,6 +16,7 @@
     <ProjectReference Include="..\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
     <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
     <ProjectReference Include="..\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
+    <ProjectReference Include="..\ProductExample.Dtos\ProductExample.Dtos.csproj" />
     <ProjectReference Include="..\UAM.Common\UAM.Common.csproj" />
     <ProjectReference Include="..\UAM.Database\UAM.Database.csproj" />
     <ProjectReference Include="..\UAM.Dtos\UAM.Dtos.csproj" />

@@ -1,0 +1,6 @@
+@ProductExample.CommandWebHost_HostAddress = http://localhost:5187
+
+GET {{ProductExample.CommandWebHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

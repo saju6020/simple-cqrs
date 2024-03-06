@@ -10,3 +10,4 @@ namespace Commands
         public Guid ProductId { get; set; }
     }
 }
+

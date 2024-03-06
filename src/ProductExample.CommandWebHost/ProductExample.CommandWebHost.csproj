@@ -5,11 +5,9 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
@@ -17,7 +15,8 @@
     <ProjectReference Include="..\Authentication\Platform.Infrastructure.Authentication.csproj" />
     <ProjectReference Include="..\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
     <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
-    <ProjectReference Include="..\Validation.FluentValidation\Platform.Infrastructure.Validation.FluentValidationProvider.csproj" />
+    <ProjectReference Include="..\ProductExample.Commands\ProductExample.Commands.csproj" />
+    <ProjectReference Include="..\ProductExample.Dtos\ProductExample.Dtos.csproj" />
   </ItemGroup>
 
 </Project>

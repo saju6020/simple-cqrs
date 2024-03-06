@@ -1,7 +1,6 @@
 ﻿using Platform.Infrastructure.Authentication;
 using Platform.Infrastructure.Common.Security;
 using Platform.Infrastructure.Core.Accessors;
-using Platform.Infrastructure.Host.WebApi;
 
 namespace ProductExample.CommandWebHost.Extensions
 {
