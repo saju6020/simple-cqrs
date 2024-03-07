@@ -93,6 +93,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductExample.EventWorkerH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductExample.EventHandlers", "src\ProductExample\ProductExample.EventHandlers\ProductExample.EventHandlers.csproj", "{06CF895E-EE79-4BCD-9DCC-AA51FA7D80DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCommandWeb", "src\Platform.Infrastracture\GenericCommandWeb\GenericCommandWeb.csproj", "{1DA6D980-95AD-4203-A69B-74203C91B3F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{06CF895E-EE79-4BCD-9DCC-AA51FA7D80DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06CF895E-EE79-4BCD-9DCC-AA51FA7D80DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06CF895E-EE79-4BCD-9DCC-AA51FA7D80DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA6D980-95AD-4203-A69B-74203C91B3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA6D980-95AD-4203-A69B-74203C91B3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA6D980-95AD-4203-A69B-74203C91B3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA6D980-95AD-4203-A69B-74203C91B3F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,6 +296,7 @@ Global
 		{4C5AD97C-252A-4778-8030-18E47A34CA4E} = {2506D97B-35F5-45BE-98B4-845E17E89223}
 		{1FD4241C-7DFD-4818-ACE2-92696010B9C3} = {96596D37-2B0A-4631-A116-1BE02A308DB9}
 		{06CF895E-EE79-4BCD-9DCC-AA51FA7D80DD} = {96596D37-2B0A-4631-A116-1BE02A308DB9}
+		{1DA6D980-95AD-4203-A69B-74203C91B3F5} = {184B87DE-5712-427C-BEAB-F21D1CD7ABD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A1BFB0EF-025C-42C3-856F-E549D661B22F}

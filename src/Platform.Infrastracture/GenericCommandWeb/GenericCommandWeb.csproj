@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authentication\Platform.Infrastructure.Authentication.csproj" />
+    <ProjectReference Include="..\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
+    <ProjectReference Include="..\Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
+    <ProjectReference Include="..\Validation.FluentValidation\Platform.Infrastructure.Validation.FluentValidationProvider.csproj" />
+  </ItemGroup>
+
+</Project>

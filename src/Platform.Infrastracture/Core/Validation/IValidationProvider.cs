@@ -9,6 +9,9 @@
         Task<ValidationResponse> ValidateAsync<TCommand>(TCommand command)
            where TCommand : ICommand;
 
+        Task<ValidationResponse> ValidateAnyObjectAsync<TCommand>(TCommand command)
+         where TCommand : class;
+
         ValidationResponse Validate<TCommand>(TCommand command)
             where TCommand : ICommand;
 

@@ -30,6 +30,19 @@
             return validationResponse;
         }
 
+
+        public async Task<ValidationResponse> ValidateAnyObjectAsync<TCommand>(TCommand command)
+           where TCommand : class
+        {
+            if (command == null)
+            {
+                throw new ArgumentNullException(nameof(command));
+            }
+
+            var validationResponse = await this.validationProvider.ValidateAnyObjectAsync(command).ConfigureAwait(false);
+            return validationResponse;
+        }
+
         public void Validate<TCommand>(TCommand command)
             where TCommand : ICommand
         {

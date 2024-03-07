@@ -29,6 +29,17 @@
             return BuildValidationResponse(validationResult);
         }
 
+        public async Task<ValidationResponse> ValidateAnyObjectAsync<TCommand>(TCommand command)
+          where TCommand : class
+        {
+            var validator = this.handlerResolver.ResolveHandler(command, typeof(IValidator<>));
+            var validateMethod = validator.GetType().GetMethod("ValidateAsync", new[] { command.GetType(), typeof(CancellationToken) });
+            var validationResult = await ((Task<ValidationResult>)validateMethod.Invoke(validator, new object[] { command, new CancellationTokenSource().Token }))
+                                    .ConfigureAwait(false);
+
+            return BuildValidationResponse(validationResult);
+        }
+
         public ValidationResponse Validate<TCommand>(TCommand command)
             where TCommand : ICommand
         {
