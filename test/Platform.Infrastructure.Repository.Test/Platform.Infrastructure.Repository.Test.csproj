@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Platform.Infrastructure.Common\Platform.Infrastructure.Common.csproj" />
-    <ProjectReference Include="..\..\src\Repository\Platform.Infrastructure.Repository.EF.csproj" />
+    <ProjectReference Include="..\..\src\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\..\src\Platform.Infrastracture\Repository\Platform.Infrastructure.Repository.EF.csproj" />
   </ItemGroup>
 
 </Project>

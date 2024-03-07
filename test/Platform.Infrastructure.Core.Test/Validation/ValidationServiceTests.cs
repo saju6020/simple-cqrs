@@ -12,7 +12,7 @@
     {
         private readonly Mock<IValidationProvider> validationProviderMock;
         private IValidationService sut;
-        private CreateAggregate createAggregate;
+        private CreateAggregate? createAggregate;
         private ValidationResponse validationResult;
 
         public ValidationServiceTests()

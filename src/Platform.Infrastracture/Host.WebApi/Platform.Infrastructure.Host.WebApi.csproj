@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<LangVersion>8.0</LangVersion>
+		<SignAssembly>False</SignAssembly>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Middlewares\VerticalIdHeaderMiddleware.cs~RF778053b.TMP" />
+	</ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.2" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Common\Platform.Infrastructure.Common.csproj" />
+	  <ProjectReference Include="..\Core\Platform.Infrastructure.Core.csproj" />
+	  <ProjectReference Include="..\EndpointRoleFeatureMap\Platform.Infrastructure.EndpointRoleFeatureMap.csproj" />
+	</ItemGroup>
+
+</Project>

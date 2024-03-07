@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>SimpleCQRS.UAM.Domain</AssemblyName>
+    <RootNamespace>SimpleCQRS.UAM.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\..\Platform.Infrastracture\Validation.FluentValidation\Platform.Infrastructure.Validation.FluentValidationProvider.csproj" />
+    <ProjectReference Include="..\UAM.Common\UAM.Common.csproj" />
+    <ProjectReference Include="..\UAM.Database\UAM.Database.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.22" />
+  </ItemGroup>
+
+</Project>

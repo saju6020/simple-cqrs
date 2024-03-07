@@ -6297,18 +6297,18 @@
     },
     "Platform.Infrastructure.Common/1.0.0": {
       "type": "project",
-      "path": "../../src/Platform.Infrastructure.Common/Platform.Infrastructure.Common.csproj",
-      "msbuildProject": "../../src/Platform.Infrastructure.Common/Platform.Infrastructure.Common.csproj"
+      "path": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj"
     },
     "Platform.Infrastructure.Core/1.0.0": {
       "type": "project",
-      "path": "../../src/Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj",
-      "msbuildProject": "../../src/Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj"
+      "path": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj"
     },
     "Platform.Infrastructure.CustomException/1.0.0": {
       "type": "project",
-      "path": "../../src/CustomException/Platform.Infrastructure.CustomException.csproj",
-      "msbuildProject": "../../src/CustomException/Platform.Infrastructure.CustomException.csproj"
+      "path": "../../src/Platform.Infrastracture/CustomException/Platform.Infrastructure.CustomException.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/CustomException/Platform.Infrastructure.CustomException.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6349,11 +6349,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Common\\Platform.Infrastructure.Common.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Common\\Platform.Infrastructure.Common.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Core\\Platform.Infrastructure.Core.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Core\\Platform.Infrastructure.Core.csproj"
             }
           }
         }

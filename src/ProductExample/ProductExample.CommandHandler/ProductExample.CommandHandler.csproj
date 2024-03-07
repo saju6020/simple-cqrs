@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\ProductExample.Aggregates\ProductExample.Aggregates.csproj" />
+    <ProjectReference Include="..\ProductExample.Commands\ProductExample.Commands.csproj" />
+    <ProjectReference Include="..\ProductExample.Dtos\ProductExample.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

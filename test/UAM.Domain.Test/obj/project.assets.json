@@ -8817,43 +8817,43 @@
     },
     "Platform.Infrastructure.Common/1.0.0": {
       "type": "project",
-      "path": "../../src/Platform.Infrastructure.Common/Platform.Infrastructure.Common.csproj",
-      "msbuildProject": "../../src/Platform.Infrastructure.Common/Platform.Infrastructure.Common.csproj"
+      "path": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj"
     },
     "Platform.Infrastructure.Core/1.0.0": {
       "type": "project",
-      "path": "../../src/Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj",
-      "msbuildProject": "../../src/Platform.Infrastructure.Core/Platform.Infrastructure.Core.csproj"
+      "path": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj"
     },
     "Platform.Infrastructure.CustomException/1.0.0": {
       "type": "project",
-      "path": "../../src/CustomException/Platform.Infrastructure.CustomException.csproj",
-      "msbuildProject": "../../src/CustomException/Platform.Infrastructure.CustomException.csproj"
+      "path": "../../src/Platform.Infrastracture/CustomException/Platform.Infrastructure.CustomException.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/CustomException/Platform.Infrastructure.CustomException.csproj"
     },
     "Platform.Infrastructure.Repository.EF/1.0.0": {
       "type": "project",
-      "path": "../../src/Repository/Platform.Infrastructure.Repository.EF.csproj",
-      "msbuildProject": "../../src/Repository/Platform.Infrastructure.Repository.EF.csproj"
+      "path": "../../src/Platform.Infrastracture/Repository/Platform.Infrastructure.Repository.EF.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Repository/Platform.Infrastructure.Repository.EF.csproj"
     },
     "Platform.Infrastructure.Validation.FluentValidationProvider/1.0.0": {
       "type": "project",
-      "path": "../../src/Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
-      "msbuildProject": "../../src/Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
+      "path": "../../src/Platform.Infrastracture/Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Validation.FluentValidation/Platform.Infrastructure.Validation.FluentValidationProvider.csproj"
     },
     "SimpleCQRS.UAM.Common/1.0.0": {
       "type": "project",
-      "path": "../../src/UAM.Common/UAM.Common.csproj",
-      "msbuildProject": "../../src/UAM.Common/UAM.Common.csproj"
+      "path": "../../src/UAMExample/UAM.Common/UAM.Common.csproj",
+      "msbuildProject": "../../src/UAMExample/UAM.Common/UAM.Common.csproj"
     },
     "SimpleCQRS.UAM.Database/1.0.0": {
       "type": "project",
-      "path": "../../src/UAM.Database/UAM.Database.csproj",
-      "msbuildProject": "../../src/UAM.Database/UAM.Database.csproj"
+      "path": "../../src/UAMExample/UAM.Database/UAM.Database.csproj",
+      "msbuildProject": "../../src/UAMExample/UAM.Database/UAM.Database.csproj"
     },
     "SimpleCQRS.UAM.Domain/1.0.0": {
       "type": "project",
-      "path": "../../src/UAM.Domain/UAM.Domain.csproj",
-      "msbuildProject": "../../src/UAM.Domain/UAM.Domain.csproj"
+      "path": "../../src/UAMExample/UAM.Domain/UAM.Domain.csproj",
+      "msbuildProject": "../../src/UAMExample/UAM.Domain/UAM.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8897,20 +8897,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Common\\Platform.Infrastructure.Common.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Common\\Platform.Infrastructure.Common.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Common\\Platform.Infrastructure.Common.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastructure.Core\\Platform.Infrastructure.Core.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Core\\Platform.Infrastructure.Core.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Core\\Platform.Infrastructure.Core.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.EF.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Repository\\Platform.Infrastructure.Repository.EF.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Repository\\Platform.Infrastructure.Repository.EF.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Repository\\Platform.Infrastructure.Repository.EF.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Common\\UAM.Common.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\UAMExample\\UAM.Common\\UAM.Common.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAMExample\\UAM.Common\\UAM.Common.csproj"
             },
-            "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj": {
-              "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAM.Domain\\UAM.Domain.csproj"
+            "C:\\Repo\\simple-cqrs\\src\\UAMExample\\UAM.Domain\\UAM.Domain.csproj": {
+              "projectPath": "C:\\Repo\\simple-cqrs\\src\\UAMExample\\UAM.Domain\\UAM.Domain.csproj"
             }
           }
         }

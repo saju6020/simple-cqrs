@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
+		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+		<SignAssembly>False</SignAssembly>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Update="BaseException.cs">
+			<ExcludeFromSourceAnalysis>True</ExcludeFromSourceAnalysis>
+			<ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+		</Compile>
+	</ItemGroup>
+
+</Project>
