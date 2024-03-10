@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using GenericCommandWeb.Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Platform.Infrastructure.Core.Bus;
 using Platform.Infrastructure.Core.Commands;
@@ -37,10 +38,10 @@ namespace GenericCommandWeb.Controllers
 
         // POST api/<CommandController>
         [HttpPost]
-        public async void Post([FromBody] ClientCommand clientCommand)
+        public async void SendAsync([FromBody] ClientCommand clientCommand)
         {            
             var validationResult = await this._validationService.ValidateAnyObjectAsync<ClientCommand>(clientCommand);
-            var command = new Command();
+            //var command = new Command();
         }
 
         // PUT api/<CommandController>/5

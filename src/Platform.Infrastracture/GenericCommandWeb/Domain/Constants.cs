@@ -1,4 +1,4 @@
-﻿namespace GenericCommandWeb
+﻿namespace GenericCommandWeb.Domain
 {
     public static class Constants
     {

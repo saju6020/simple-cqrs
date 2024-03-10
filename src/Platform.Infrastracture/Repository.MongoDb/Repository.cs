@@ -13,6 +13,12 @@
         private readonly DatabaseType databaseType;
         private readonly MongoDbConnectionCache mongoDbConnectionCache;
 
+        public Repository(MongoDbConnectionCache mongoDbConnectionCache)
+        {
+            this.databaseType = DatabaseType.Default;
+            this.mongoDbConnectionCache = mongoDbConnectionCache;
+        }
+
         public Repository(DatabaseType databaseType, MongoDbConnectionCache mongoDbConnectionCache)
         {
             this.databaseType = databaseType;

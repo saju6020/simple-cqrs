@@ -16,6 +16,7 @@
     <ProjectReference Include="..\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
     <ProjectReference Include="..\Core\Platform.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
+    <ProjectReference Include="..\Repository.MongoDb\Platform.Infrastructure.Repository.MongoDb.csproj" />
     <ProjectReference Include="..\Validation.FluentValidation\Platform.Infrastructure.Validation.FluentValidationProvider.csproj" />
   </ItemGroup>
 

@@ -2,6 +2,7 @@
 {
     public enum DatabaseType
     {
+        Default,
         Read,
         State,
         Event,
