@@ -2,6 +2,7 @@
 {
     using Microsoft.Extensions.DependencyInjection;
     using Platform.Infrastracture.Cqrs.Repository.MongoDb;
+    using Platform.Infrastructure.Core;
     using Platform.Infrastructure.Core.Domain;
     using Platform.Infrastructure.Core.Queries;
     using Platform.Infrastructure.Repository.MongoDb;

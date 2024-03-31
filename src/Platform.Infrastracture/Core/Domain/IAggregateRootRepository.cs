@@ -8,11 +8,11 @@
     public interface IAggregateRootRepository<T>
         where T : AggregateRoot
     {
-        Task SaveAsync(T aggregate);
+        Task SaveAsync(T aggregate, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly);
 
-        Task UpdateAsync(T aggregate);
+        Task UpdateAsync(T aggregate, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly);
 
-        Task UpdateAsync(T aggregate, int expectedVersion);
+        Task UpdateAsync(T aggregate, int expectedVersion, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly);
 
         Task<T> GetByIdAsync(Guid id);
 

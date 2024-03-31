@@ -20,7 +20,7 @@
 
         QueryResponse<TResult> GetResult<TResult>();
 
-        CommandResponse Send(ICommand command);
+       // CommandResponse Send(ICommand command);
 
         Task<CommandResponse> SendAsync(ICommand command);
 

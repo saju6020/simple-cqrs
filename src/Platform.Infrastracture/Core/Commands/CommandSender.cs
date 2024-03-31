@@ -23,7 +23,7 @@
 
         private bool ValidateCommand(ICommand command) => command.ValidateCommand ?? this.validationOptions.Value.ValidateAllCommands;
 
-        private bool PublishEvents(ICommand command) => command.PublishEvents ?? this.commandOptions.Value.PublishEvents;
+       // private bool PublishEvents(ICommand command) => command.PublishEvents ?? this.commandOptions.Value.PublishEvents;
 
         public CommandSender(
             IHandlerResolver handlerResolver,

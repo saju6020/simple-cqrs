@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Authentication\Platform.Infrastructure.Authentication.csproj" />
-    <ProjectReference Include="..\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
-    <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
+    <ProjectReference Include="..\..\Platform.Infrastracture\Authentication\Platform.Infrastructure.Authentication.csproj" />
+    <ProjectReference Include="..\..\Platform.Infrastracture\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
+    <ProjectReference Include="..\..\Platform.Infrastracture\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
     <ProjectReference Include="..\ProductExample.Commands\ProductExample.Commands.csproj" />
     <ProjectReference Include="..\ProductExample.Dtos\ProductExample.Dtos.csproj" />
   </ItemGroup>

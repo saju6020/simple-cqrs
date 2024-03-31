@@ -57,11 +57,7 @@
         }
 
         public async Task PublishToBus(IEnumerable<IDomainEvent> events, ICommand command)
-        {
-            if (!command.PublishEvents.HasValue)
-            {
-                return;
-            }
+        {           
 
             foreach (var @event in events)
             {

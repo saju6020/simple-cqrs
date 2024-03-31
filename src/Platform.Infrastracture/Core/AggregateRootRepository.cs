@@ -1,4 +1,6 @@
-﻿namespace Platform.Infrastructure.Core.Domain
+﻿using Platform.Infrastructure.Core.Domain;
+
+namespace Platform.Infrastructure.Core
 {
     using Platform.Infrastructure.Common.Security;
     using Platform.Infrastructure.Core.Bus;
@@ -14,88 +16,95 @@
         where T : AggregateRoot
     {
         private readonly IBusMessageDispatcher busMessageDispatcher;
+        private readonly IDispatcher dispatcher;
         private readonly IStateRepository stateRepository;
         private readonly IEventRepository eventRepository;
         private readonly IUserContextProvider userContextProvider;
 
-        public AggregateRootRepository(IBusMessageDispatcher busMessageDispatcher, IStateRepository stateRepository, IEventRepository eventRepository, IUserContextProvider userContextProvider)
+        public AggregateRootRepository(
+            IBusMessageDispatcher busMessageDispatcher,
+            IDispatcher dispatcher,
+            IStateRepository stateRepository,
+            IEventRepository eventRepository,
+            IUserContextProvider userContextProvider)
         {
             this.busMessageDispatcher = busMessageDispatcher;
             this.stateRepository = stateRepository;
             this.eventRepository = eventRepository;
             this.userContextProvider = userContextProvider;
+            this.dispatcher = dispatcher;
         }
 
-        public async Task SaveAsync(T aggregate)
+        public async Task SaveAsync(T aggregate, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly)
         {
-            this.EnrichEvents(aggregate, aggregate.Events);
+            EnrichEvents(aggregate, aggregate.Events);
 
             if (aggregate.Events.Any(@event => @event is BusinessRuleViolatedEvent) == false)
             {
-                UserContext userContext = this.userContextProvider.GetUserContext();
+                UserContext userContext = userContextProvider.GetUserContext();
                 aggregate.SetDefaultValue(userContext);
 
-                await this.stateRepository.CreateAsync(aggregate);
-                await this.SaveEventsAsync(aggregate.Events);
+                await stateRepository.CreateAsync(aggregate);
+                await SaveEventsAsync(aggregate.Events);
             }
 
-            await this.PublishEventsAsync(aggregate.Events);
+            await PublishEventsAsync(aggregate.Events);
         }
 
-        public async Task UpdateAsync(T aggregate)
+        public async Task UpdateAsync(T aggregate, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly)
         {
-            this.EnrichEvents(aggregate, aggregate.Events);
+            EnrichEvents(aggregate, aggregate.Events);
 
             if (aggregate.Events.Any(@event => @event is BusinessRuleViolatedEvent) == false)
             {
-                UserContext userContext = this.userContextProvider.GetUserContext();
+                UserContext userContext = userContextProvider.GetUserContext();
                 aggregate.SetDefaultValue(userContext);
 
-                await this.stateRepository.ReplaceAsync(aggregate, agg => agg.Id == aggregate.Id);
+                await stateRepository.ReplaceAsync(aggregate, agg => agg.Id == aggregate.Id);
 
-                await this.SaveEventsAsync(aggregate.Events);
+                await SaveEventsAsync(aggregate.Events);
             }
 
-            await this.PublishEventsAsync(aggregate.Events);
+            await PublishEventsAsync(aggregate.Events);
         }
 
-        public async Task UpdateAsync(T aggregate, int expectedVersion)
+        public async Task UpdateAsync(T aggregate, int expectedVersion, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly)
         {
-            this.EnrichEvents(aggregate, aggregate.Events);
+            EnrichEvents(aggregate, aggregate.Events);
 
             if (aggregate.Events.Any(@event => @event is BusinessRuleViolatedEvent) == false)
             {
-                var replaced = await this.stateRepository.ReplaceAsync(aggregate, agg => agg.Id == aggregate.Id && agg.Version == expectedVersion);
+                var replaced = await stateRepository.ReplaceAsync(aggregate, agg => agg.Id == aggregate.Id && agg.Version == expectedVersion);
 
                 if (!replaced)
                 {
                     throw new ConcurrencyException(aggregate.Id, expectedVersion, aggregate.Version);
                 }
 
-                await this.SaveEventsAsync(aggregate.Events);
+                await SaveEventsAsync(aggregate.Events);
             }
 
-            await this.PublishEventsAsync(aggregate.Events);
+            await PublishEventsAsync(aggregate.Events);
         }
 
         public Task<T> GetByIdAsync(Guid id)
         {
-            return this.stateRepository.GetItemAsync<T>(aggregateRoot => aggregateRoot.Id == id);
+            return stateRepository.GetItemAsync<T>(aggregateRoot => aggregateRoot.Id == id);
         }
 
         public Task<T> GetByFilterAsync(Expression<Func<T, bool>> dataFilters)
         {
-            return this.stateRepository.GetItemAsync<T>(dataFilters);
+            return stateRepository.GetItemAsync(dataFilters);
         }
 
         public Task<bool> ExistAsync(Expression<Func<T, bool>> dataFilters)
         {
-            return this.stateRepository.ExistAsync<T>(dataFilters);
+            return stateRepository.ExistAsync(dataFilters);
         }
 
         private void EnrichEvents(AggregateRoot aggregateRoot, IReadOnlyCollection<IDomainEvent> domainEvents)
         {
-            UserContext userContext = this.userContextProvider.GetUserContext();
+            UserContext userContext = userContextProvider.GetUserContext();
 
             foreach (var domainEvent in domainEvents)
             {
@@ -121,15 +130,31 @@
                     UserId = domainEvent.UserContext.UserId,
                 };
 
-                await this.eventRepository.CreateAsync(eventDocument);
+                await eventRepository.CreateAsync(eventDocument);
             }
         }
 
-        private async Task PublishEventsAsync(IEnumerable<IDomainEvent> domainEvents)
+        private async Task PublishEventsAsync(IEnumerable<IDomainEvent> domainEvents, EventPublishOption eventPublishOption = EventPublishOption.QueuePublishOnly)
         {
             foreach (var domainEvent in domainEvents)
             {
-                await this.busMessageDispatcher.PublishAsync(domainEvent);
+                if(eventPublishOption == EventPublishOption.DoNotPublish)
+                {
+                    continue;
+                }
+                if (eventPublishOption == EventPublishOption.InMemoryPublishOnly)
+                {
+                    await dispatcher.PublishAsync(domainEvent);
+                }
+                else if (eventPublishOption == EventPublishOption.QueuePublishOnly)
+                {
+                    await busMessageDispatcher.PublishAsync(domainEvent);
+                }
+                else if(eventPublishOption == EventPublishOption.InMemoryAndQueuePublish)
+                {
+                    await dispatcher.PublishAsync(domainEvent);
+                    await busMessageDispatcher.PublishAsync(domainEvent);
+                }
             }
         }
     }

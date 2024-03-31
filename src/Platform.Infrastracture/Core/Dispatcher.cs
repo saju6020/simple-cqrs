@@ -45,10 +45,22 @@
             return this.busMessageDispatcher.DispatchAsync(message);
         }
 
-        public Task<CommandResponse> SendAsync(ICommand command)
+        public async Task<CommandResponse> SendAsync(ICommand command)
         {
+            CommandResponse response = new CommandResponse();
+
             this.SetUserContextWithMessage(command);
-            return this.commandSender.SendAsync(command);
+
+            if (command.IsInMemoryCommand)
+            {
+                response = await this.commandSender.SendAsync(command);
+            }
+            else
+            {
+                await this.busMessageDispatcher.DispatchAsync(command);
+            }
+
+            return response;
         }
 
         public Task PublishAsync<TEvent>(TEvent @event)
@@ -69,17 +81,17 @@
             return await this.queryProcessor.ProcessAsync<TResult>().ConfigureAwait(false);
         }
 
-        public CommandResponse Send(ICommand command)
-        {
-            this.SetUserContextWithMessage(command);
-            return this.commandSender.Send(command);
-        }
+        //public CommandResponse Send(ICommand command)
+        //{
+        //    this.SetUserContextWithMessage(command);
+        //    return this.commandSender.Send(command);
+        //}
 
-        public CommandResponse Send<TResult>(ICommand command)
-        {
-            this.SetUserContextWithMessage(command);
-            return this.commandSender.Send(command);
-        }
+        //public CommandResponse Send<TResult>(ICommand command)
+        //{
+        //    this.SetUserContextWithMessage(command);
+        //    return this.commandSender.Send(command);
+        //}
 
         public QueryResponse<TResult> GetResult<TResult>(IQuery<TResult> query)
         {

@@ -10,6 +10,16 @@ namespace TestSse.Controllers
     {
         private readonly ILogger<HomeController> logger;
         private readonly ISseHolder sse;
+
+
+        public HomeController(ILogger<HomeController> logger, ISseHolder sse)
+        {
+            this.logger = logger;
+            this.sse = sse;
+        }
+
+
+
         // GET: api/<HomeController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -29,7 +39,7 @@ namespace TestSse.Controllers
         public async Task<string> Post([FromBody] SseMessage? message)
         {
             if (string.IsNullOrEmpty(message?.Id) ||
-            string.IsNullOrEmpty(message?.Message))
+            message?.Message == null)
             {
                 return "No messages";
             }

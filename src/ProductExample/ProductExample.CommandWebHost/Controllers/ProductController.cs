@@ -1,6 +1,7 @@
 ﻿using Commands;
 using Dtos;
 using Microsoft.AspNetCore.Mvc;
+using Platform.Infrastructure.Core;
 using Platform.Infrastructure.Core.Bus;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -45,7 +46,9 @@ namespace ProductExample.CommandWebHost.Controllers
                 ProductId = productId,
                 Title = productDto.Title,
                 Description = productDto.Description,
-                CorrelationId = productId
+                CorrelationId = productId,
+                EventPublishOption = EventPublishOption.InMemoryAndQueuePublish
+                
             };
 
             await this._busMessageDispatcher.SendAsync(command);

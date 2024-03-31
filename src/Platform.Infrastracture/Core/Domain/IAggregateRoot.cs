@@ -13,6 +13,8 @@
 
         ReadOnlyCollection<IDomainEvent> Events { get; }
 
+
+
         void LoadsFromHistory(IEnumerable<IDomainEvent> events);
     }
 }

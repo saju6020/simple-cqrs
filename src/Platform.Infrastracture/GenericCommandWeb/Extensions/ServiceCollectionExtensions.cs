@@ -1,6 +1,8 @@
 ﻿using Platform.Infrastructure.Authentication;
 using Platform.Infrastructure.Common.Security;
+using Platform.Infrastructure.Core;
 using Platform.Infrastructure.Core.Accessors;
+using Platform.Infrastructure.Repository.MongoDb;
 
 namespace GenericCommandWeb.Extensions
 {
@@ -11,6 +13,7 @@ namespace GenericCommandWeb.Extensions
             services.AddScoped<UserContext, UserContext>();
             services.AddSingleton<IUserContextProvider, HttpUserContextProvider>();
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<IRepository, Repository>();
 
             return services;
            

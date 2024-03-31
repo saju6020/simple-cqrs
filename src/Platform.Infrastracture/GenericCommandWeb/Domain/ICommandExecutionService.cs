@@ -1,9 +1,11 @@
-﻿namespace GenericCommandWeb.Domain
+﻿using Platform.Infrastructure.Core.Commands;
+
+namespace GenericCommandWeb.Domain
 {
     public interface ICommandExecutionService
     {
 
-        public Task ExecuteAsync(ClientCommand command);
+        public Task<CommandResponse> ExecuteAsync(ClientCommand command);
        
     }
 }

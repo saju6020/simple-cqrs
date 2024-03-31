@@ -30,7 +30,7 @@ namespace ProductExample.CommandHandler
 
             var productAggreagate = new ProductAggregate();
             productAggreagate.CreateProduct(GetProductDto(command), this._userContextProvider.GetUserContext());
-            await this.aggregateRootRepository.SaveAsync(productAggreagate);
+            await this.aggregateRootRepository.SaveAsync(productAggreagate, command.EventPublishOption);
 
             return new CommandResponse();
 

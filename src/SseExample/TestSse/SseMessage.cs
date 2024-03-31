@@ -7,7 +7,7 @@ namespace TestSse
         [JsonPropertyName("id")]
         public string Id { get; init; } = null!;
         [JsonPropertyName("message")]
-        public string Message { get; init; } = null!;
+        public object Message { get; init; } = null!;
     }
     public record SseClientId
     {

@@ -1,14 +1,15 @@
-﻿/*
-namespace Platform.Infrastructure.Core.Domain
+﻿
+/*namespace Platform.Infrastructure.Core.Domain
 {
     using System;
+    using System.Linq.Expressions;
     using System.Threading.Tasks;
-    using Platform.Infrastructure.Repository.Contracts;
+   
 
     /// <summary>Generic domain repository.</summary>
     /// <typeparam name="T"></typeparam>
     /// <seealso cref="Platform.Infrastructure.Core.Domain.IDomainRepository{T}" />
-    public class DefaultAggregateRepository<T> : IAggregateRepository<T>
+    public class DefaultAggregateRepository<T> : IAggregateRootRepository<T>
         where T : IAggregateRoot
     {
         private readonly IRepository repository;
@@ -34,6 +35,25 @@ namespace Platform.Infrastructure.Core.Domain
         {
             throw new NotImplementedException();
         }
+
+        public Task UpdateAsync(T aggregate, int expectedVersion)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> GetByIdAsync(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<T> GetByFilterAsync(Expression<Func<T, bool>> dataFilters)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> ExistAsync(Expression<Func<T, bool>> dataFilters)
+        {
+            throw new NotImplementedException();
+        }
     }
-}
-*/
+}*/
