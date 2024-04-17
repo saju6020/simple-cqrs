@@ -3,14 +3,16 @@
     using System;
     using System.Net.Http;
     using Polly;
-    using Serilog;
     using Platform.Infrastructure.CustomException;
+    using Microsoft.Extensions.Logging;
+    using System.Runtime.CompilerServices;
 
     /// <summary>
     /// This class is responsible for providing default actions for onBreak,onReset,onTry
     /// </summary>
     public class DefaultActionProvider
     {
+       
         /// <summary>
         /// Gets the on break action.
         /// </summary>
@@ -37,12 +39,13 @@
         /// Gets the on try action.
         /// </summary>
         /// <returns> returns Action.</returns>
-        public static Action<DelegateResult<HttpResponseMessage>, TimeSpan> GetOnTryAction()
+        public static Action<DelegateResult<HttpResponseMessage>, TimeSpan> GetOnTryAction(ILogger logger)
         {
             return (exception, timeSpan) =>
             {
-                Log.Logger.Debug(exception.Exception.Message);
-                Log.Logger.Debug("Retrying Again");
+                
+                logger.LogDebug(exception.Exception.Message);
+                logger.LogDebug("Retrying Again");
             };
         }
     }

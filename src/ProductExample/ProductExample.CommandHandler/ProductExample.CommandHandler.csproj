@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\ProductExample.Aggregates\ProductExample.Aggregates.csproj" />
     <ProjectReference Include="..\ProductExample.Commands\ProductExample.Commands.csproj" />
     <ProjectReference Include="..\ProductExample.Dtos\ProductExample.Dtos.csproj" />

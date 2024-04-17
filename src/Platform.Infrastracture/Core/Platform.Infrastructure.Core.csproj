@@ -4,16 +4,17 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <PackageId>Platform.Infrastructure.Core</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Md.Shahjahan</Authors>
+	  <Company>BRAC IT</Company>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Common\Platform.Infrastructure.Common.csproj" />
-    <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
+    <PackageReference Include="Platform.Infrastructure.Common" Version="1.0.0" />
+    <PackageReference Include="Platform.Infrastructure.CustomException" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

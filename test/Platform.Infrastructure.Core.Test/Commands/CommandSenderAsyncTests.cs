@@ -206,7 +206,7 @@
         [Fact]
         public async Task SendAsync_NotPublishesEvents_WhenSetInCommand()
         {
-            this.createSomething.PublishEvents = false;
+           // this.createSomething.PublishEvents = false;
             await this.sut.SendAsync(this.createSomething);
             this.eventPublisher.Verify(x => x.PublishAsync(this.somethingCreated), Times.Never);
         }

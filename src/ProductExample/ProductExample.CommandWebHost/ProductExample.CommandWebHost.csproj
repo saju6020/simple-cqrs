@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -8,13 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Platform.Infrastructure.Bus.RabbitMQ" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Platform.Infrastracture\Authentication\Platform.Infrastructure.Authentication.csproj" />
-    <ProjectReference Include="..\..\Platform.Infrastracture\Bus.RabbitMQ\Platform.Infrastructure.Bus.RabbitMQ.csproj" />
-    <ProjectReference Include="..\..\Platform.Infrastracture\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
     <ProjectReference Include="..\ProductExample.Commands\ProductExample.Commands.csproj" />
     <ProjectReference Include="..\ProductExample.Dtos\ProductExample.Dtos.csproj" />
   </ItemGroup>

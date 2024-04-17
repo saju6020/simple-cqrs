@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app-modernization-65141.bracits.com/bagetnew/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -77,19 +78,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app-modernization-65141.bracits.com/bagetnew/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Common\\Platform.Infrastructure.Common.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Common\\Platform.Infrastructure.Common.csproj"
-              },
-              "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\CustomException\\Platform.Infrastructure.CustomException.csproj": {
-                "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\CustomException\\Platform.Infrastructure.CustomException.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -109,63 +104,16 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Platform.Infrastructure.Common": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Platform.Infrastructure.CustomException": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\CustomException\\Platform.Infrastructure.CustomException.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\CustomException\\Platform.Infrastructure.CustomException.csproj",
-        "projectName": "Platform.Infrastructure.CustomException",
-        "projectPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\CustomException\\Platform.Infrastructure.CustomException.csproj",
-        "packagesPath": "C:\\Users\\shahjahan\\.nuget\\packages\\",
-        "outputPath": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\CustomException\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\shahjahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -204,7 +152,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://app-modernization-65141.bracits.com/bagetnew/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {

@@ -5,10 +5,15 @@
     <AssemblyName>$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
     <SignAssembly>true</SignAssembly>
+	  <PackageId>Platform.Infrastructure.CacheStore</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Md.Shahjahan</Authors>
+	  <Company>BRAC IT</Company>
   </PropertyGroup>
 
 
   <ItemGroup>
+    <PackageReference Include="Platform.Infrastructure.CustomException" Version="1.0.0" />
     <PackageReference Include="protobuf-net" Version="3.2.30" />
 
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
@@ -20,10 +25,6 @@
     <PackageReference Include="NRediSearch" Version="2.2.79" />
     <PackageReference Include="StackExchange.Redis" Version="2.7.17" />
     <PackageReference Include="StackExchange.Redis.Resilience" Version="2.6.122" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 
 namespace GenericCommandWeb.Domain
 {
-    public class ClientCommand
+    public class CommandDto
     {
         public Guid CorrelationId { get; set; }
         public string CommandType { get; set; }

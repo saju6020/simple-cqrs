@@ -538,6 +538,25 @@
           }
         }
       },
+      "Platform.Infrastructure.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Platform.Infrastructure.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Platform.Infrastructure.Common.dll": {}
+        }
+      },
+      "Platform.Infrastructure.CustomException/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Platform.Infrastructure.CustomException.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Platform.Infrastructure.CustomException.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -1874,16 +1893,6 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Platform.Infrastructure.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Platform.Infrastructure.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Platform.Infrastructure.Common.dll": {}
-        }
-      },
       "Platform.Infrastructure.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1898,16 +1907,6 @@
         },
         "runtime": {
           "bin/placeholder/Platform.Infrastructure.Core.dll": {}
-        }
-      },
-      "Platform.Infrastructure.CustomException/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Platform.Infrastructure.CustomException.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Platform.Infrastructure.CustomException.dll": {}
         }
       }
     }
@@ -2918,6 +2917,22 @@
         "lib/netstandard2.0/NuGet.Frameworks.xml",
         "nuget.frameworks.5.11.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "Platform.Infrastructure.Common/1.0.0": {
+      "type": "project",
+      "path": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj",
+      "msbuildProject": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj"
+    },
+    "Platform.Infrastructure.CustomException/1.0.0": {
+      "sha512": "OfOdfaGOzwJQYqdt7mYxuAx9WE2+5zr7xoq5IERcbQo3jM4vJk8SvQJy9Q3Vfffm40vystyG3xcaQISBTa+LuQ==",
+      "type": "package",
+      "path": "platform.infrastructure.customexception/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/Platform.Infrastructure.CustomException.dll",
+        "platform.infrastructure.customexception.1.0.0.nupkg.sha512",
+        "platform.infrastructure.customexception.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -6295,20 +6310,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Platform.Infrastructure.Common/1.0.0": {
-      "type": "project",
-      "path": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj",
-      "msbuildProject": "../../src/Platform.Infrastracture/Common/Platform.Infrastructure.Common.csproj"
-    },
     "Platform.Infrastructure.Core/1.0.0": {
       "type": "project",
       "path": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj",
       "msbuildProject": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj"
-    },
-    "Platform.Infrastructure.CustomException/1.0.0": {
-      "type": "project",
-      "path": "../../src/Platform.Infrastracture/CustomException/Platform.Infrastructure.CustomException.csproj",
-      "msbuildProject": "../../src/Platform.Infrastracture/CustomException/Platform.Infrastructure.CustomException.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6343,7 +6348,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://app-modernization-65141.bracits.com/bagetnew/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {

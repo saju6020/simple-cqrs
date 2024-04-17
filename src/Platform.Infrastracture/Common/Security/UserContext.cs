@@ -30,9 +30,7 @@
 
         public Guid UserId { get; set; }
 
-        public Guid TenantId { get; set; }
-
-        public string? SiteId { get; set; }
+        public Guid TenantId { get; set; }      
 
         public string? Email { get; set; }
 
@@ -64,8 +62,7 @@
             this.Audience = context.Audience;
             this.TokenIssuer = context.TokenIssuer;
             this.LanguageCode = context.LanguageCode;
-            this.VerticalId = context.VerticalId;
-            this.SiteId = context.SiteId;
+            this.VerticalId = context.VerticalId;            
             this.Email = context.Email;
             this.UserName = context.UserName;
             this.PhoneNumber = context.PhoneNumber;

@@ -7,21 +7,21 @@
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<LangVersion>8.0</LangVersion>
 		<SignAssembly>False</SignAssembly>
+		<PackageId>Platform.Infrastructure.Host.WebApi</PackageId>
+		<Version>1.0.1</Version>
+		<Authors>Md.Shahjahan</Authors>
+		<Company>BRAC IT</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<None Remove="Middlewares\VerticalIdHeaderMiddleware.cs~RF778053b.TMP" />
 	</ItemGroup>
 	<ItemGroup>
-		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+		<PackageReference Include="Platform.Infrastructure.EndpointRoleFeatureMap" Version="1.0.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.2" />
-	</ItemGroup>
-	<ItemGroup>
-	  <ProjectReference Include="..\Common\Platform.Infrastructure.Common.csproj" />
-	  <ProjectReference Include="..\Core\Platform.Infrastructure.Core.csproj" />
-	  <ProjectReference Include="..\EndpointRoleFeatureMap\Platform.Infrastructure.EndpointRoleFeatureMap.csproj" />
 	</ItemGroup>
 
 </Project>

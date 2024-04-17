@@ -6,6 +6,7 @@
     using Platform.Infrastructure.FaultTolerance.Http.Service;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
 
     /// <summary>
     /// This class provides two extension on IServiceCollection for configuring circuit breaker and retry.
@@ -20,7 +21,7 @@
         /// <returns> IServiceCollection. </returns>
         public static IServiceCollection UseHttpFaultTolerance(
             this IServiceCollection services,
-            IConfiguration configuration)
+            IConfiguration configuration, ILogger logger)
         {
             services.AddSingleton<IHttpClientProvider, HttpClientProvider>();
 
@@ -35,7 +36,7 @@
                 .AddPolicyHandler(policyHandler.GetRetryPolicy(
                     retryConfig.RetryCount,
                     TimeSpan.FromSeconds(retryConfig.IntervalBetweenRetry),
-                    DefaultActionProvider.GetOnTryAction()))
+                    DefaultActionProvider.GetOnTryAction(logger)))
                 .AddPolicyHandler(policyHandler.GetCircuitBreakerPolicy(
                     circuitBreakerConfig.CircuitBreakerThreshold,
                     TimeSpan.FromSeconds(circuitBreakerConfig.DurationOfBreak),

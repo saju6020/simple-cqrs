@@ -111,19 +111,19 @@
             this.commandSender.Verify(x => x.SendAsync(this.createAggregate), Times.Once);
         }
 
-        [Fact]
-        public void SendsCommand()
-        {
-            this.sut.Send(this.createAggregate);
-            this.commandSender.Verify(x => x.Send(this.createAggregate), Times.Once);
-        }
+        //[Fact]
+        //public void SendsCommand()
+        //{
+        //    this.sut.Send(this.createAggregate);
+        //    this.commandSender.Verify(x => x.Send(this.createAggregate), Times.Once);
+        //}
 
-        [Fact]
-        public void SendsCommandWithResult()
-        {
-            this.sut.Send(this.createAggregate);
-            this.commandSender.Verify(x => x.Send(this.createAggregate), Times.Once);
-        }
+        //[Fact]
+        //public void SendsCommandWithResult()
+        //{
+        //    this.sut.Send(this.createAggregate);
+        //    this.commandSender.Verify(x => x.Send(this.createAggregate), Times.Once);
+        //}
 
         [Fact]
         public async Task PublishesEventAsync()

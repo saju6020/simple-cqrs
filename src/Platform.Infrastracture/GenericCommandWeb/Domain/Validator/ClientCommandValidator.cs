@@ -3,7 +3,7 @@ using GenericCommandWeb.Domain;
 
 namespace GenericCommandWeb.Domain.Validator
 {
-    public class ClientCommandValidator : AbstractValidator<ClientCommand>
+    public class ClientCommandValidator : AbstractValidator<CommandDto>
     {
         public ClientCommandValidator()
         {

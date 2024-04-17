@@ -22,6 +22,9 @@ builder.Services.AddServiceBusProvider(builder.Configuration);
 
 var app = builder.Build();
 
+var logger = app.Services.GetService<ILogger<Program>>();
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -33,3 +36,4 @@ app.UseHttpPipeline(enableAuthorization: false, enableServiceIdCheckerMiddleware
 
 
 app.Run();
+logger.LogInformation("Application started");

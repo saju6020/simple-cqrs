@@ -5,7 +5,7 @@ namespace GenericCommandWeb.Domain
     public interface ICommandExecutionService
     {
 
-        public Task<CommandResponse> ExecuteAsync(ClientCommand command);
+        public Task<CommandResponse> ExecuteAsync(CommandDto commandDto);
        
     }
 }

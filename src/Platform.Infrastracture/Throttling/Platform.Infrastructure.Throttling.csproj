@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>Platform.Infrastructure.Throttling</AssemblyName>
     <RootNamespace>Platform.Infrastructure.Throttling</RootNamespace>
+	  <PackageId>Platform.Infrastructure.Throttling</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Md.Shahjahan</Authors>
+	  <Company>BRAC IT</Company>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AspNetCoreRateLimit" Version="4.0.0" />

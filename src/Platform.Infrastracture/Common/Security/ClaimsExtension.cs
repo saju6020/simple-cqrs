@@ -28,8 +28,7 @@
             {
                 VerticalId = verticalId,
                 Email = claims.GetClaimValue(ClaimTypes.Email),
-                LanguageCode = claims.GetClaimValue(ClaimTypes.Language),
-                SiteId = claims.GetClaimValue(ClaimTypes.SiteId),
+                LanguageCode = claims.GetClaimValue(ClaimTypes.Language),                
                 UserName = claims.GetClaimValue(ClaimTypes.UserName),
                 PhoneNumber = claims.GetClaimValue(ClaimTypes.PhoneNumber),
                 ClientId = claims.GetClaimValue(ClaimTypes.ClientId),
@@ -81,12 +80,7 @@
             if (!string.IsNullOrEmpty(userContext.TokenIssuer))
             {
                 claims.Add(new Claim(ClaimTypes.TokenIssuer, userContext.TokenIssuer));
-            }
-
-            if (!string.IsNullOrEmpty(userContext.SiteId))
-            {
-                claims.Add(new Claim(ClaimTypes.SiteId, userContext.SiteId));
-            }
+            }          
 
             if (!string.IsNullOrEmpty(userContext.ClientId))
             {

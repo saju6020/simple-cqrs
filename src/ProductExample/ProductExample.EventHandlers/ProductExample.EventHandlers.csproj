@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\ProductExample.Events\ProductExample.Events.csproj" />
   </ItemGroup>
 

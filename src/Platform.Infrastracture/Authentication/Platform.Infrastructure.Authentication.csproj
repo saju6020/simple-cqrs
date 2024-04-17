@@ -5,18 +5,16 @@
 		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Authors></Authors>
-		<Company></Company>
+		<PackageId>Platform.Infrastructure.Authentication</PackageId>
 		<Version>1.0.0</Version>
+		<Authors>Md.Shahjahan</Authors>
+		<Company>BRAC IT</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.1" />
+		<PackageReference Include="Platform.Infrastructure.Common" Version="1.0.0" />
 		<PackageReference Include="Serilog" Version="2.9.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\Common\Platform.Infrastructure.Common.csproj" />
 	</ItemGroup>
 
 </Project>

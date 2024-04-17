@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
     <ProjectReference Include="..\..\Platform.Infrastracture\Validation.FluentValidation\Platform.Infrastructure.Validation.FluentValidationProvider.csproj" />
     <ProjectReference Include="..\UAM.Common\UAM.Common.csproj" />
     <ProjectReference Include="..\UAM.Database\UAM.Database.csproj" />

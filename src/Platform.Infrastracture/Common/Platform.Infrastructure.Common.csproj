@@ -4,6 +4,10 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <PackageId>Platform.Infrastructure.Common</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Md.Shahjahan</Authors>
+	  <Company>BRAC IT</Company>
   </PropertyGroup>
 
 </Project>

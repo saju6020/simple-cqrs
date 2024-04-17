@@ -38,9 +38,9 @@ namespace GenericCommandWeb.Controllers
 
         // POST api/<CommandController>
         [HttpPost]
-        public async void SendAsync([FromBody] ClientCommand clientCommand)
+        public async void SendAsync([FromBody] CommandDto clientCommand)
         {            
-            var validationResult = await this._validationService.ValidateAnyObjectAsync<ClientCommand>(clientCommand);
+            var validationResult = await this._validationService.ValidateAnyObjectAsync<CommandDto>(clientCommand);
             //var command = new Command();
         }
 

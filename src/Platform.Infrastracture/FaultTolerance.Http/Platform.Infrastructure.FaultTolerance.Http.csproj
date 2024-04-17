@@ -4,16 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>FaultTolerance.Http</RootNamespace>
     <SignAssembly>true</SignAssembly>
+	  <PackageId>Platform.Infrastructure.FaultTolerance.Http</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>Md.Shahjahan</Authors>
+	  <Company>BRAC IT</Company>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="3.1.2" />
-    <PackageReference Include="Serilog" Version="2.8.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
+    <PackageReference Include="Platform.Infrastructure.CustomException" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
