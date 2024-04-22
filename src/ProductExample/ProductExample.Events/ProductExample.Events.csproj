@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.9.0" />
-    <PackageReference Include="Platform.Infrastructure.Core" Version="1.0.0" />
+    <PackageReference Include="Platform.Infrastructure.Core" Version="1.0.1" />
   </ItemGroup>
 
 </Project>

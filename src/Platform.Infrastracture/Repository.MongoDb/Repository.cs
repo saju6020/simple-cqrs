@@ -103,17 +103,5 @@
         {
             throw new NotImplementedException();
         }
-
-        public Task<T> GetOneAsync<T>(Expression<Func<T, bool>> filter = null, string includeProperties = null)
-            where T : class
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<int> GetCountAsync<T>(Expression<Func<T, bool>> filter = null)
-            where T : class
-        {
-            throw new NotImplementedException();
-        }
     }
 }

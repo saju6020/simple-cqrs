@@ -6,19 +6,16 @@
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<SignAssembly>False</SignAssembly>
 		<PackageId>Platform.Infrastructure.Repository.MongoDb</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Md.Shahjahan</Authors>
 		<Company>BRAC IT</Company>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\Core\Platform.Infrastructure.Core.csproj" />
-	  <ProjectReference Include="..\CustomException\Platform.Infrastructure.CustomException.csproj" />
-	  <ProjectReference Include="..\ServiceRegistration.Provider\Platform.Infrastructure.ServiceRegistration.Provider.csproj" />
+	  <PackageReference Include="Platform.Infrastructure.Core" Version="1.0.1" />
+	  <PackageReference Include="Platform.Infrastructure.CustomException" Version="1.0.0" />
+	  <PackageReference Include="Platform.Infrastructure.ServiceRegistration.Provider" Version="1.0.0" />
 	</ItemGroup>
 
 </Project>

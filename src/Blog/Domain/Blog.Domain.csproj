@@ -15,12 +15,11 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
     <PackageReference Include="FluentValidation" Version="11.7.1" />
-    <PackageReference Include="MediatR" Version="12.1.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Platform.Infrastracture\Repository\Platform.Infrastructure.Repository.EF.csproj" />
     <ProjectReference Include="..\BlogOrm\Blog.ORM.csproj" />
-    <ProjectReference Include="..\Repository\Platform.Infrastructure.Repository.csproj" />
   </ItemGroup>
 
 </Project>

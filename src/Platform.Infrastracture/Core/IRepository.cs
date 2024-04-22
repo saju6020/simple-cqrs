@@ -26,7 +26,7 @@
 
         Task UpsertAsync<T>(T data, Expression<Func<T, bool>> dataFilters) where T: class;
 
-        Task SaveManyAsync<T>(IEnumerable<T> data) where T: class;
+        Task SaveManyAsync<T>(IEnumerable<T> data) where T: class;       
 
         Task DeleteManyAsync<T>(Expression<Func<T, bool>> dataFilters) where T:class;
 
@@ -36,14 +36,6 @@
             string? includeProperties = null,
             int? skip = null,
             int? take = null) 
-            where T : class;
-       
-        Task<T> GetOneAsync<T>(
-            Expression<Func<T, bool>>? filter = null,
-            string? includeProperties = null)
-            where T : class;                   
-      
-        Task<int> GetCountAsync<T>(Expression<Func<T, bool>>? filter = null)
             where T : class;
       
     }

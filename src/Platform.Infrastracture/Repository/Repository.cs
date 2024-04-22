@@ -2,13 +2,14 @@
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Platform.Infrastructure.Core;
 using Platform.Infrastructure.Domain;
+using Platform.Infrastructure.Repository.EF;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
 
 namespace Platform.Infrastructure.Repository
 {
-    public class Repository<TContext> : IRepository
+    public class Repository<TContext> : IOrmRepository
      where TContext : DbContext
     {
         public ChangeTracker ChangeTracker { get; set; }
@@ -45,7 +46,7 @@ namespace Platform.Infrastructure.Repository
 
         }            
 
-        public async Task SaveAsync()
+        public async Task CommitAsync()
         {
             try
             {

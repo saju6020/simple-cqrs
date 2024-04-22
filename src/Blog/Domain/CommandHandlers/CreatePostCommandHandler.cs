@@ -1,32 +1,36 @@
 ﻿using AutoMapper;
 using Blog.ORM.Models;
-using MediatR;
-using Platform.Infrastructure.Repository.Contract;
+using Platform.Infrastructure.Core;
+using Platform.Infrastructure.Core.Commands;
 using SimpleCQRS.Blog.Domain.Commands;
+using Platform.Infrastructure.Repository.EF;
 
 namespace SimpleCQRS.Blog.Domain.CommandHandlers
 {
-    public class CreatePostCommandHandler : IRequestHandler<CreatePostCommand, Guid>
+    public class CreatePostCommandHandler : ICommandHandlerAsync<CreatePostCommand>
     {
 
-        public CreatePostCommandHandler(IRepository repository, IMapper mapper)
+        public CreatePostCommandHandler(IOrmRepository repository, IMapper mapper)
         {
             this._repository = repository;
             this._mapper = mapper;
         }
 
-        private readonly IRepository _repository;
-        private readonly IMapper _mapper;
+        private readonly IOrmRepository _repository;
+        private readonly IMapper _mapper;      
 
-        public async Task<Guid> Handle(CreatePostCommand createPostCommand, CancellationToken cancellationToken)
+       public async Task<CommandResponse> HandleAsync(CreatePostCommand createPostCommand)
         {
             var blog = this._mapper.Map<BlogDetails>(createPostCommand);
             blog.CreatedOn = DateTime.UtcNow;
 
             await this._repository.CreateAsync<BlogDetails>(blog);
-            await this._repository.SaveAsync();
+            await this._repository.CommitAsync();
 
-            return blog.Id;
+            return new CommandResponse()
+            {
+                Result = blog.Id
+            };
         }
 
     }

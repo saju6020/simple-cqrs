@@ -1,6 +1,7 @@
 ﻿using Blog.ORM.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Npgsql;
 
 namespace Blog.ORM.Context
 {
@@ -18,7 +19,7 @@ namespace Blog.ORM.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder                
-                .UseSqlServer("Data Source=DESKTOP-KTI6J0L\\SQLEXPRESS;Initial Catalog=BLOG;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true");
+                .UseNpgsql("Host=localhost; Database=SimpleCQRS; Username=postgres; Password=postgres");
 
         }
 

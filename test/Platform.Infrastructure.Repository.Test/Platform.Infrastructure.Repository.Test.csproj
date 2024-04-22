@@ -19,7 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Platform.Infrastracture\Core\Platform.Infrastructure.Core.csproj" />
-    <ProjectReference Include="..\..\src\Platform.Infrastracture\Repository\Platform.Infrastructure.Repository.EF.csproj" />
+    <ProjectReference Include="..\..\src\Platform.Infrastracture\Cqrs.Repository.EF\Platform.Infrastracture.Cqrs.Repository.EF.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,8 +1,8 @@
-﻿using MediatR;
+﻿using Platform.Infrastructure.Core.Commands;
 
 namespace SimpleCQRS.Blog.Domain.Commands
 {
-    public class CreatePostCommand : IRequest<Guid>
+    public class CreatePostCommand : Command
     {
         public Guid PostId { get; set; }
 

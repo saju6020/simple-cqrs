@@ -1893,7 +1893,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "Platform.Infrastructure.Core/1.0.0": {
+      "Platform.Infrastructure.Core/1.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -6310,7 +6310,7 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Platform.Infrastructure.Core/1.0.0": {
+    "Platform.Infrastructure.Core/1.0.1": {
       "type": "project",
       "path": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj",
       "msbuildProject": "../../src/Platform.Infrastracture/Core/Platform.Infrastructure.Core.csproj"
@@ -6321,7 +6321,7 @@
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "Moq >= 4.20.69",
       "Platform.Infrastructure.Common >= 1.0.0",
-      "Platform.Infrastructure.Core >= 1.0.0",
+      "Platform.Infrastructure.Core >= 1.0.1",
       "coverlet.collector >= 3.1.2",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"

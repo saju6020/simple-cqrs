@@ -10,10 +10,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+    <PackageReference Include="Platform.Infrastructure.Host.WebApi" Version="1.0.1" />
+    <PackageReference Include="Platform.Infrastructure.Validation.FluentValidationProvider" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Host.WebApi\Platform.Infrastructure.Host.WebApi.csproj" />
+    <ProjectReference Include="..\..\Platform.Infrastracture\Authentication\Platform.Infrastructure.Authentication.csproj" />
+    <ProjectReference Include="..\BlogOrm\Blog.ORM.csproj" />
+    <ProjectReference Include="..\Dtos\Dtos.csproj" />
+    <ProjectReference Include="..\Mapper\Blog.Mapper.csproj" />
   </ItemGroup>
 
 </Project>

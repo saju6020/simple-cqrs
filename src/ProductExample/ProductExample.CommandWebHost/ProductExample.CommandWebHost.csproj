@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Platform.Infrastructure.Authentication" Version="1.0.0" />
     <PackageReference Include="Platform.Infrastructure.Bus.RabbitMQ" Version="1.0.0" />
+    <PackageReference Include="Platform.Infrastructure.Host.WebApi" Version="1.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 

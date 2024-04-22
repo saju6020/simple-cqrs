@@ -61,7 +61,7 @@
       }
     },
     "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Core\\Platform.Infrastructure.Core.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Repo\\simple-cqrs\\src\\Platform.Infrastracture\\Core\\Platform.Infrastructure.Core.csproj",
         "projectName": "Platform.Infrastructure.Core",
