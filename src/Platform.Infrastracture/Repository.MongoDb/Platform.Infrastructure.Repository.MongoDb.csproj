@@ -6,7 +6,7 @@
 		<RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 		<SignAssembly>False</SignAssembly>
 		<PackageId>Platform.Infrastructure.Repository.MongoDb</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>Md.Shahjahan</Authors>
 		<Company>BRAC IT</Company>
 	</PropertyGroup>

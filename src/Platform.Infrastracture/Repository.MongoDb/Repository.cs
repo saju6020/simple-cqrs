@@ -5,10 +5,11 @@
     using System.Linq;
     using System.Linq.Expressions;
     using System.Threading.Tasks;
+    using MongoDB.Bson;
     using MongoDB.Driver;
     using Platform.Infrastructure.Core;
 
-    public class Repository : IRepository
+    public class Repository : IMongoRepository
     {
         private readonly DatabaseType databaseType;
         private readonly MongoDbConnectionCache mongoDbConnectionCache;
@@ -80,6 +81,11 @@
             return this.mongoDbConnectionCache.GetVerticalDataContext(this.databaseType).GetCollection<T>($"{typeof(T).Name}s");
         }
 
+        private IMongoCollection<T> GetCollection<T>(string collectionName)
+        {
+            return this.mongoDbConnectionCache.GetVerticalDataContext(this.databaseType).GetCollection<T>(collectionName);
+        }
+
         public Task UpsertAsync<T>(T data,Expression<Func<T, bool>> dataFilters)
             where T : class
         {
@@ -102,6 +108,14 @@
             where T : class
         {
             throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<T>> GetItems<T>(BsonDocument[] pipeline, string collectionName)
+        {
+            var items = this.GetCollection<T>(collectionName)
+                .Aggregate<T>(pipeline)
+                .ToEnumerable();
+            return Task.FromResult(items);
         }
     }
 }
